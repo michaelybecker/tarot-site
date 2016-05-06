@@ -20,31 +20,31 @@ $stateProvider
 
 })
 .state('home', {
-	url: '/home',
+	// url: '/home',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/home.tmpl.html"}
 	}
 })
 
-.state('home.about', {
-	url: '/about',
+.state('about', {
+	url: '/home.about',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/about.tmpl.html"}
 	}
 })
 
-.state('home.spread', {
-	url: '/spread',
+.state('spread', {
+	// url: '/.spread',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/spread.tmpl.html"}
 	}
 })
 
-.state('home.cardindex', {
-	url: '/cardindex',
+.state('cardindex', {
+	// url: '/cardindex',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/cardindex.tmpl.html"}
