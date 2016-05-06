@@ -1,0 +1,7 @@
+<div id="sidebar"></div>
+<h1>The cards</h1>
+<div ng-controller="sidebar as sidebar">
+<ul ng-repeat="card in sidebar.deck">
+<li><a href="#" ng-mouseover="sidebar.openModal(card)">{{card.name}}</a></li>
+</ul>
+</div>

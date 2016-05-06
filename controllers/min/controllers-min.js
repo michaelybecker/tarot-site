@@ -1,0 +1,1 @@
+reader.controller("sidebar",["$scope","$log",function(o,e){this.deck=deck,this.openModal=function(o){e.log(o),window.open(o.image)}}]);
