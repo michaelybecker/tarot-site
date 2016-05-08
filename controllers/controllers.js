@@ -10,8 +10,18 @@ this.filtercard = ""
 
 }]);
 
-reader.controller('cardindex', ['$scope', '$log', 'tarotDeck', function($scope, $log, tarotDeck) {
+reader.controller('cardindex', ['$scope', '$log', '$sanitize', '$sce', 'tarotDeck', function($scope, $log, $sanitize, $sce, tarotDeck) {
 $scope.deck = tarotDeck.deck;
-$scope.deck.activeCard = tarotDeck.deck.activeCard;
+// $scope.deck.activeCard = tarotDeck.deck.activeCard;
+
+// $scope.cardHistory = $sce.trustAsHtml($scope.deck.activeCard.history);
+
+}]);
+
+reader.controller('home', ['$scope', '$log', '$sanitize', '$sce', 'tarotDeck', function($scope, $log, $sanitize, $sce, tarotDeck) {
+$scope.deck = tarotDeck.deck;
+// $scope.deck.activeCard = tarotDeck.deck.activeCard;
+
+// $scope.cardHistory = $sce.trustAsHtml($scope.deck.activeCard.history);
 
 }]);

@@ -20,19 +20,28 @@ background-color: #EEE;
 
 }
 
-.cardindex, .home, .about, .spreads {
+.cardindex h1, .home, .about, .spreads {
   text-align:center;
+}
+
+.card-image {
+	float:left;
 }
 
 .cardspace {
   margin-top:3%;
 }
-.card-place h2, .history, .interpretation {
-  text-decoration: underline
+.card-place h2, .cardtitle h2 {
+  text-decoration: underline;
+  text-align:center;
+}
+
+.card-place h3 {
+	text-decoration: underline;
 }
 
 .history, .interpretation {
-  margin-top:14%;
-  text-align:center;
+  margin-top:6%;
+  /*text-align:justify;*/
 
 }
