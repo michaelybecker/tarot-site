@@ -1,1 +1,1 @@
-reader.controller("sidebar",["$scope","$log",function(o,e){this.deck=deck,this.openModal=function(o){e.log(o),window.open(o.image)}}]);
+reader.controller("sidebar",["$scope","$log","tarotDeck",function(e,c,d){e.deck=d.deck,e.deck.activeCard=d.deck.activeCard,this.focusOn=function(c){e.deck.activeCard=c},this.filtercard=""}]),reader.controller("cardindex",["$scope","$log","tarotDeck",function(e,c,d){e.deck=d.deck,e.deck.activeCard=d.deck.activeCard}]);

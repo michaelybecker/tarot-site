@@ -1,5 +1,38 @@
+body {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size:2em;
+}
 .sidebar {
+border-right: 1px solid;
+overflow:hidden;
+overflow-y:scroll;
+height: 92vh;
+cursor: default;
 
-border-right: 1px dotted;
+}
+.sidebar ul {
+  list-style-type: none;
+  font-size:1em;
+}
+
+.sidebar ul li:hover {
+background-color: #EEE;
+
+}
+
+.cardindex, .home, .about, .spreads {
+  text-align:center;
+}
+
+.cardspace {
+  margin-top:3%;
+}
+.card-place h2, .history, .interpretation {
+  text-decoration: underline
+}
+
+.history, .interpretation {
+  margin-top:14%;
+  text-align:center;
 
 }

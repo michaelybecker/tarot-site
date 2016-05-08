@@ -1,1 +1,17 @@
-<h1>I'm Card Index</h1>
+<div class="cardindex" ng-controller="cardindex">
+    <h1>Card Index</h1>
+    <div class="row cardspace">
+        <div class="col-xs-4 history">
+            <h3>History</h3>
+            <p>{{deck.activeCard.history}}</p>
+        </div>
+        <div class="col-xs-4 card-place">
+            <h2>{{ deck.activeCard.name }}</h3>
+            <img src="{{ deck.activeCard.image }}">
+        </div>
+        <div class="col-xs-4 interpretation">
+            <h3>Interpretation</h3>
+            <p>{{deck.activeCard.interpretation}}</p>
+        </div>
+    </div>
+</div>

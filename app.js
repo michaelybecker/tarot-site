@@ -2,7 +2,6 @@ var reader = angular.module('tarotReader', ['ui.router']);
 
 reader.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
-
 $urlRouterProvider.otherwise('/');
 
 $stateProvider
@@ -14,9 +13,7 @@ $stateProvider
 		"main": {templateUrl: "./templates/home.tmpl.html"}
 	},
 	controller: {
-	},
-	css: "./css/style.css"
-
+	}
 
 })
 .state('home', {

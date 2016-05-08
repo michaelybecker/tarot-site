@@ -1,0 +1,1 @@
+reader.service("tarotDeck",["$log",function(e){this.deck=deck,this.deck.activeCard=this.deck[0],this.shuffle=function(){}}]);

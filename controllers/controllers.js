@@ -1,8 +1,17 @@
-reader.controller('sidebar', ['$scope', '$log', function($scope, $log) {
+reader.controller('sidebar', ['$scope', '$log', 'tarotDeck', function($scope, $log, tarotDeck) {
 
-this.deck = deck;
-this.openModal = function(e){
-	$log.log(e);
-	window.open(e.image);
+$scope.deck = tarotDeck.deck;
+$scope.deck.activeCard = tarotDeck.deck.activeCard;
+this.focusOn = function(e){
+  $scope.deck.activeCard = e;
 }
+
+this.filtercard = ""
+
+}]);
+
+reader.controller('cardindex', ['$scope', '$log', 'tarotDeck', function($scope, $log, tarotDeck) {
+$scope.deck = tarotDeck.deck;
+$scope.deck.activeCard = tarotDeck.deck.activeCard;
+
 }]);
