@@ -40,6 +40,11 @@ background-color: #EEE;
 	text-decoration: underline;
 }
 
+.card-place p {
+  line-height: 2.5em;
+  font-size: 1em;
+}
+
 .history, .interpretation {
   margin-top:6%;
   /*text-align:justify;*/
