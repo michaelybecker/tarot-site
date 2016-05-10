@@ -1,7 +1,26 @@
 body {
   font-family: 'Goudy Bookletter 1911', serif;
   font-size:2em;
+  cursor: default;
 }
+
+section {
+    min-height:92vh;
+}
+/*&&&&*/
+.home {
+  height:90vh;
+}
+
+/*&&&&&*/
+
+.cardindex {
+overflow:hidden;
+overflow-y:scroll;
+height: 92vh;
+
+}
+
 .sidebar {
 border-right: 1px solid;
 overflow:hidden;
@@ -13,14 +32,24 @@ cursor: default;
 .sidebar ul {
   list-style-type: none;
   font-size:1em;
+  padding-left:0;
+ }
+
+
+.sidebar ul li {
+  padding: 4px 0 4px 0;
 }
 
 .sidebar ul li:hover {
-background-color: #EEE;
+background-color: hsla(216, 100%, 50%, 0.1);
 
 }
 
-.cardindex h1, .home, .about, .spreads {
+.sidebar select {
+  margin-top:10%;
+}
+
+.cardsingle h1, .home, .about, .spreads {
   text-align:center;
 }
 
@@ -29,11 +58,14 @@ background-color: #EEE;
 }
 
 .cardspace {
-  margin-top:3%;
+/*  margin-top:1%;*/
 }
 .card-place h2, .cardtitle h2 {
   text-decoration: underline;
   text-align:center;
+}
+.cardtitle h2 {
+  margin-bottom:4%;
 }
 
 .card-place h3 {
@@ -41,12 +73,104 @@ background-color: #EEE;
 }
 
 .card-place p {
-  line-height: 2.5em;
+  margin-top:1%;
+  line-height: 2em;
   font-size: 1em;
 }
+
+.back-button {
+  background-color: hsla(216, 100%, 50%, 0.1);
+/*background-color: transparent;*/
+  color:black;
+  font-size:0.8em;
+  border-style: none;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+/*/////*/
+
+.card-in-stack {
+  display:inline-block;
+}
+
+.card-in-stack:hover {
+background-color: hsla(216, 100%, 50%, 0.1);
+
+}
+
+.cardindex h1 {
+  text-decoration: underline;
+  margin-bottom:2%;
+  margin-top:4%;
+}
+
+.cardindex h2 {
+  text-align:center;
+  margin-bottom:2%;
+}
+
+.cardindex .title, .spreads .title {
+  font-size:4em;
+    text-decoration: none;
+    margin-bottom:4%;
+}
+
+/**/
 
 .history, .interpretation {
   margin-top:6%;
   /*text-align:justify;*/
+
+}
+
+/*/////*/
+.about {
+  overflow:hidden;
+overflow-y:scroll;
+/*min-height: 92vh;*/
+}
+
+.about-exp p {
+  text-align:justify;
+  font-size:0.9em;
+  line-height:2em;
+  text-indent: 50px;
+  margin-top:2%;
+  margin-left:20%;
+  margin-right:20%;
+}
+.about ul li{
+  text-align:center;
+  /*font-size:1.3em;*/
+  line-height:2em;
+  list-style-type: none;
+  /*text-indent: 50px;*/
+  margin-top:2%;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+.about .vid {
+  margin: 30px;
+}
+
+.special-word {
+color: hsla(216, 45%, 50%, 0.9);
+}
+
+.fill {
+  min-height:50px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+  font-size:0.8em;
+  text-align:center;
 
 }

@@ -1,4 +1,63 @@
-<div class="cardindex" ng-controller="cardindex">
-<single-card deck="deck"></single-card>
+<section class="cardindex" ng-controller="cardindex as cardindex">
 
-</div>
+
+        <h1 class="text-center title">Card Index</h1>
+    <div class="row card-stack">
+        <h1 class="text-center">The Major Arcana</h1>
+        <div class="col-md-2 col-xs-4" ng-repeat="card in deck | filter: {suit:'Major Arcana'}" ng-click="cardindex.focusOn(card)" ui-sref="cardsingle">
+            <div class="thumbnail card-in-stack">
+                <img class="img-thumbnail img-responsive" src="{{card.image}}" />
+                <div class="caption">
+                    <h4 class="text-center">{{card.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-stack">
+        <h1 class="text-center">The Minor Arcana</h1>
+        <br>
+        <h2>Wands</h2>
+        <div class="col-md-2 col-xs-4" ng-repeat="card in deck | filter: {suit:'Wands'}" ng-click="cardindex.focusOn(card)" ui-sref="cardsingle">
+            <div class="thumbnail card-in-stack">
+                <img class="img-thumbnail img-responsive" src="{{card.image}}" />
+                <div class="caption">
+                    <h4 class="text-center">{{card.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-stack">
+        <h2>Cups</h2>
+        <div class="col-md-2 col-xs-4" ng-repeat="card in deck | filter: {suit:'Cups'}" ng-click="cardindex.focusOn(card)" ui-sref="cardsingle">
+            <div class="thumbnail card-in-stack">
+                <img class="img-thumbnail img-responsive" src="{{card.image}}" />
+                <div class="caption">
+                    <h4 class="text-center">{{card.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-stack">
+        <h2>Swords</h2>
+        <div class="col-md-2 col-xs-4" ng-repeat="card in deck | filter: {suit:'Swords'}" ng-click="cardindex.focusOn(card)" ui-sref="cardsingle">
+            <div class="thumbnail card-in-stack">
+                <img class="img-thumbnail img-responsive" src="{{card.image}}" />
+                <div class="caption">
+                    <h4 class="text-center">{{card.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row card-stack">
+        <h2>Pentacles</h2>
+        <div class="col-md-2 col-xs-4" ng-repeat="card in deck | filter: {suit:'Pentacles'}" ng-click="cardindex.focusOn(card)" ui-sref="cardsingle">
+            <div class="thumbnail card-in-stack">
+                <img class="img-thumbnail img-responsive" src="{{card.image}}" />
+                <div class="caption">
+                    <h4 class="text-center">{{card.name}}</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+<custom-footer></custom-footer>
+</section>

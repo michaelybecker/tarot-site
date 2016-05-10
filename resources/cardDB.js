@@ -6,7 +6,7 @@ var deck = [
 	image: imagePath + "maj00" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: 'With light step, as if earth and its trammels had little power to restrain him, a young man in gorgeous vestments pauses at the brink of a precipice among the great heights of the world; he surveys the blue distance before him-its expanse of sky rather than the prospect below. His act of eager walking is still indicated, though he is stationary at the given moment; his dog is still bounding. The edge which opens on the depth has no terror; it is as if angels were waiting to uphold him, if it came about that he leaped from the height. His countenance is full of intelligence and expectant dream. He has a rose in one hand and in the other a costly wand, from which depends over his right shoulder a wallet curiously embroidered. He is a prince of the other world on his travels through this one-all amidst the morning glory, in the keen air. The sun, which shines behind him, knows whence he came, whither he is going, and how he will return by another path after many days. He is the spirit in search of experience. Many symbols of the Instituted Mysteries are summarized in this card, which reverses, under high warrants, all the confusions that have preceded it. In his Manual of Cartomancy, Grand Orient has a curious suggestion of the office of Mystic Fool, as apart of his process in higher divination; but it might call for more than ordinary gifts to put it into operation. We shall see how the card fares according to the common arts of fortune-telling, and it will be an example, to those who can discern, of the fact, otherwise so evident, that the Trumps Major had no place originally in the arts of psychic gambling, when cards are used as the counters and pretexts. Of the circumstances under which this art arose we know, however, very little. The conventional explanations say that the Fool signifies the flesh, the sensitive life, and by a peculiar satire its subsidiary name was at one time the alchemist, as depicting folly at the most insensate stage.',
+	PKT: '<p>With light step, as if earth and its trammels had little power to restrain him, a young man in gorgeous vestments pauses at the brink of a precipice among the great heights of the world; he surveys the blue distance before him-its expanse of sky rather than the prospect below. His act of eager walking is still indicated, though he is stationary at the given moment; his dog is still bounding. The edge which opens on the depth has no terror; it is as if angels were waiting to uphold him, if it came about that he leaped from the height. His countenance is full of intelligence and expectant dream. He has a rose in one hand and in the other a costly wand, from which depends over his right shoulder a wallet curiously embroidered. He is a prince of the other world on his travels through this one-all amidst the morning glory, in the keen air. The sun, which shines behind him, knows whence he came, whither he is going, and how he will return by another path after many days. He is the spirit in search of experience. Many symbols of the Instituted Mysteries are summarized in this card, which reverses, under high warrants, all the confusions that have preceded it.</p><p>In his <i>Manual of Cartomancy</i>, Grand Orient has a curious suggestion of the office of Mystic Fool, as apart of his process in higher divination; but it might call for more than ordinary gifts to put it into operation. We shall see how the card fares according to the common arts of fortune-telling, and it will be an example, to those who can discern, of the fact, otherwise so evident, that the Trumps Major had no place originally in the arts of psychic gambling, when cards are used as the counters and pretexts. Of the circumstances under which this art arose we know, however, very little. The conventional explanations say that the Fool signifies the flesh, the sensitive life, and by a peculiar satire its subsidiary name was at one time the alchemist, as depicting folly at the most insensate stage.</p>',
 	interpretation:'<p>In many esoteric systems of interpretation, the Fool is usually interpreted as the protagonist of a story, and the <a href="/wiki/Major_Arcana" title="Major Arcana">Major Arcana</a> is the path the Fool takes through the great mysteries of life and the main human <a href="/wiki/Archetypes" title="Archetypes" class="mw-redirect">archetypes</a>. This path is known traditionally in cartomancy as the "Fool\'s Journey", and is frequently used to introduce the meaning of Major Arcana cards to beginners.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup></p>',
 	suit: 'Major Arcana'
 },
@@ -15,7 +15,7 @@ var deck = [
 	image: imagePath + "maj01" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: 'A youthful figure in the robe of a magician, having the countenance of divine Apollo, with smile of confidence and shining eyes. Above his head is the mysterious sign of the Holy Spirit, the sign of life, like an endless cord, forming the figure 8 in a horizontal position . About his waist is a serpent-cincture, the serpent appearing to devour its own tail. This is familiar to most as a conventional symbol of eternity, but here it indicates more especially the eternity of attainment in the spirit. In the Magician\'s right hand is a wand raised towards heaven, while the left hand is pointing to the earth. This dual sign is known in very high grades of the Instituted Mysteries; it shews the descent of grace, virtue and light, drawn from things above and derived to things below. The suggestion throughout is therefore the possession and communication of the Powers and Gifts of the Spirit. On the table in front of the Magician are the symbols of the four Tarot suits, signifying the elements of natural life, which lie like counters before the adept, and he adapts them as he wills. Beneath are roses and lilies, the flos campi and lilium convallium, changed into garden flowers, to shew the culture of aspiration. This card signifies the divine motive in man, reflecting God, the will in the liberation of its union with that which is above. It is also the unity of individual being on all planes, and in a very high sense it is thought, in the fixation thereof. With further reference to what I have called the sign of life and its connexion with the number 8, it may be remembered that Christian Gnosticism speaks of rebirth in Christ as a change "unto the Ogdoad." The mystic number is termed Jerusalem above, the Land flowing with Milk and Honey, the Holy Spirit and the Land of the Lord. According to Martinism, 8 is the number of Christ.',
+	PKT: '<p>A youthful figure in the robe of a magician, having the countenance of divine Apollo, with smile of confidence and shining eyes. Above his head is the mysterious sign of the Holy Spirit, the sign of life, like an endless cord, forming the figure 8 in a horizontal position . About his waist is a serpent-cincture, the serpent appearing to devour its own tail. This is familiar to most as a conventional symbol of eternity, but here it indicates more especially the eternity of attainment in the spirit. In the Magician\'s right hand is a wand raised towards heaven, while the left hand is pointing to the earth. This dual sign is known in very high grades of the Instituted Mysteries; it shews the descent of grace, virtue and light, drawn from things above and derived to things below. The suggestion throughout is therefore the possession and communication of the Powers and Gifts of the Spirit. On the table in front of the Magician are the symbols of the four Tarot suits, signifying the elements of natural life, which lie like counters before the adept, and he adapts them as he wills. Beneath are roses and lilies, the <i>flos campi</i> and <i>lilium convallium</i>, changed into garden flowers, to shew the culture of aspiration. This card signifies the divine motive in man, reflecting God, the will in the liberation of its union with that which is above. It is also the unity of individual being on all planes, and in a very high sense it is thought, in the fixation thereof. With further reference to what I have called the sign of life and its connexion with the number 8, it may be remembered that Christian Gnosticism speaks of rebirth in Christ as a change "unto the Ogdoad." The mystic number is termed Jerusalem above, the Land flowing with Milk and Honey, the Holy Spirit and the Land of the Lord. According to Martinism, 8 is the number of Christ.</p>',
 	interpretation:'<p>When the Magician appears in a spread, it points to the talents, capabilities and resources at the querent\'s disposal. Depending on the card\'s placement in relation to other cards, the message is to tap into one\'s full potential rather than holding back, especially when there is a need to transform something. There are choices and directions to take. Guidance can arrive through one\'s own intuition or in the form of someone who brings about change or transformation.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup></p><p>The card can mean that a manipulator is floating around, usually if it\'s reversed. He may be a beneficent guide, but he does not necessarily have our best interests in mind. He may also represent the querent’s ego or self-awareness. He can also represent the intoxication of power, both good and bad.<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2008)">citation needed</span></a></i>]</sup></p><p>According to Arthur Edward Waite, this card signifies the divine motive in man.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup> It is also the unity of the individual being on all planes, and in a very high sense it is thought. With further reference to the "sign of life", i.e. the infinity symbol and its connection with the number 8, it may be remembered that Christian Gnosticism speaks of rebirth in Christ as a change "unto the Ogdoad." The mystic number is termed Jerusalem above, the Land flowing with Milk and Honey, the Holy Spirit and the Land of the Lord. According to <a href="/wiki/Martinism" title="Martinism">Martinism</a>, 8 is the number of Christ.</p>',
 	suit: 'Major Arcana'
 },
@@ -60,7 +60,7 @@ var deck = [
 	image: imagePath + "maj06" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT:'<p>The sun shines in the zenith, and beneath is a great winged figure with arms extended, pouring down influences. In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body. Behind the man is the Tree of Life, bearing twelve fruits, and the Tree of the Knowledge of Good and Evil is behind the woman; the serpent is twining round it. The figures suggest youth, virginity, innocence and love before it is contaminated by gross material desire. This is in all simplicity the card of human love, here exhibited as part of the way, the truth and the life. It replaces, by recourse to first principles, the old card of marriage, which I have described previously, and the later follies which depicted man between vice and virtue. In a very high sense, the card is a mystery of the Covenant and Sabbath.</p><p>The suggestion in respect of the woman is that she signifies that attraction towards the sensitive life which carries within it the idea of the Fall of Man, but she is rather the working of a Secret Law of Providence than a willing and conscious temptress. It is through her imputed lapse that man shall arise ultimately, and only by her can he complete himself. The card is therefore in its way another intimation concerning the great mystery of womanhood. The old meanings fall to pieces of necessity with the old pictures, but even as interpretations of the latter, some of them were of the order of commonplace and others were false in symbolism.</p>',
 	interpretation:'<p>The sun shines in the zenith, and beneath is a great winged figure with arms extended, pouring down influences. In the foreground are two human figures, male and female, unveiled before each other, as if Adam and Eve when they first occupied the paradise of the earthly body. Behind the man is the Tree of Life, bearing twelve fruits, and the Tree of the Knowledge of Good and Evil is behind the woman; the serpent is twining round it. The figures suggest youth, virginity, innocence and love before it is contaminated by gross material desire. This is in all simplicity the card of human love, here exhibited as part of the way, the truth and the life. It replaces, by recourse to first principles, the old card of marriage, which I have described previously, and the later follies which depicted man between vice and virtue. In a very high sense, the card is a mystery of the Covenant and Sabbath.</p><p>The suggestion in respect of the woman is that she signifies that attraction towards the sensitive life which carries within it the idea of the Fall of Man, but she is rather the working of a Secret Law of Providence than a willing and conscious temptress. It is through her imputed lapse that man shall arise ultimately, and only by her can he complete himself. The card is therefore in its way another intimation concerning the great mystery of womanhood. The old meanings fall to pieces of necessity with the old pictures, but even as interpretations of the latter, some of them were of the order of commonplace and others were false in symbolism.</p>',
 	suit: 'Major Arcana'
 },
@@ -69,8 +69,8 @@ var deck = [
 	image: imagePath + "maj07" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
-	interpretation:'<p>An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description which I have given in the first part. On the shoulders of the victorious hero are supposed to be the <i>Urim</i> and <i>Thummim</i>. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that I have accepted the variation of Éliphas Lévi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.</p><p>It is to be understood for this reason (a) that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; (b) that the planes of his conquest are manifest or external and not within himself; (c) that the liberation which he effects may leave himself in the bondage of the logical understanding; (d) that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and (e) that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called <i>Tora</i>, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood.</p>',
+	PKT:'<p>An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description which I have given in the first part. On the shoulders of the victorious hero are supposed to be the <i>Urim</i> and <i>Thummim</i>. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that I have accepted the variation of Eliphas Levi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.</p><p>It is to be understood for this reason (a) that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; (b) that the planes of his conquest are manifest or external and not within himself; (c) that the liberation which he effects may leave himself in the bondage of the logical understanding; (d) that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and (e) that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called <i>Tora</i>, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood.</p>',
+	interpretation:'<p>An erect and princely figure carrying a drawn sword and corresponding, broadly speaking, to the traditional description which I have given in the first part. On the shoulders of the victorious hero are supposed to be the <i>Urim</i> and <i>Thummim</i>. He has led captivity captive; he is conquest on all planes--in the mind, in science, in progress, in certain trials of initiation. He has thus replied to the sphinx, and it is on this account that I have accepted the variation of Eliphas Levi; two sphinxes thus draw his chariot. He is above all things triumph in the mind.</p><p>It is to be understood for this reason (a) that the question of the sphinx is concerned with a Mystery of Nature and not of the world of Grace, to which the charioteer could offer no answer; (b) that the planes of his conquest are manifest or external and not within himself; (c) that the liberation which he effects may leave himself in the bondage of the logical understanding; (d) that the tests of initiation through which he has passed in triumph are to be understood physically or rationally; and (e) that if he came to the pillars of that Temple between which the High Priestess is seated, he could not open the scroll called <i>Tora</i>, nor if she questioned him could he answer. He is not hereditary royalty and he is not priesthood.</p>',
 	suit: 'Major Arcana'
 },
 {
@@ -87,7 +87,7 @@ var deck = [
 	image: imagePath + "maj09" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '<p>The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that "where I am, you also may be."</p><p>It is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Éliphas Lévi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term <i>Philosophe inconnu</i> was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared.</p>',
+	PKT: '<p>The variation from the conventional models in this card is only that the lamp is not enveloped partially in the mantle of its bearer, who blends the idea of the Ancient of Days with the Light of the World It is a star which shines in the lantern. I have said that this is a card of attainment, and to extend this conception the figure is seen holding up his beacon on an eminence. Therefore the Hermit is not, as Court de Gebelin explained, a wise man in search of truth and justice; nor is he, as a later explanation proposes, an especial example of experience. His beacon intimates that "where I am, you also may be."</p><p>It is further a card which is understood quite incorrectly when it is connected with the idea of occult isolation, as the protection of personal magnetism against admixture. This is one of the frivolous renderings which we owe to Eliphas Levi. It has been adopted by the French Order of Martinism and some of us have heard a great deal of the Silent and Unknown Philosophy enveloped by his mantle from the knowledge of the profane. In true Martinism, the significance of the term <i>Philosophe inconnu</i> was of another order. It did not refer to the intended concealment of the Instituted Mysteries, much less of their substitutes, but--like the card itself--to the truth that the Divine Mysteries secure their own protection from those who are unprepared.</p>',
 	interpretation:'z',
 	suit: 'Major Arcana'
 },
@@ -96,7 +96,7 @@ var deck = [
 	image: imagePath + "maj10" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '<p>In this symbol I have again followed the reconstruction of Éliphas Lévi, who has furnished several variants. It is legitimate--as I have intimated--to use Egyptian symbolism when this serves our purpose, provided that no theory of origin is implied therein. I have, however, presented Typhon in his serpent form. The symbolism is, of course, not exclusively Egyptian, as the four Living Creatures of Ezekiel occupy the angles of the card, and the wheel itself follows other indications of Lévi in respect of Ezekiel\'s vision, as illustrative of the particular Tarot Key. With the French occultist, and in the design itself, the symbolic picture stands for the perpetual motion of a fluidic universe and for the flux of human life. The Sphinx is the equilibrium therein. The transliteration of <i>Taro</i> as <i>Rota</i> is inscribed on the wheel, counterchanged with the letters of the Divine Name--to shew that Providence is imphed through all. But this is the Divine intention within, and the similar intention without is exemplified by the four Living Creatures. Sometimes the sphinx is represented couchant on a pedestal above, which defrauds the symbolism by stultifying the essential idea of stability amidst movement.</p><p>Behind the general notion expressed in the symbol there lies the denial of chance and the fatality which is implied therein. It may be added that, from the days of Lévi onward, the occult explanations of this card are--even for occultism itself--of a singularly fatuous kind. It has been said to mean principle, fecundity, virile honour, ruling authority, etc. The findings of common fortune-telling are better than this on their own plane.</p>',
+	PKT: '<p>In this symbol I have again followed the reconstruction of Eliphas Levi, who has furnished several variants. It is legitimate--as I have intimated--to use Egyptian symbolism when this serves our purpose, provided that no theory of origin is implied therein. I have, however, presented Typhon in his serpent form. The symbolism is, of course, not exclusively Egyptian, as the four Living Creatures of Ezekiel occupy the angles of the card, and the wheel itself follows other indications of Lévi in respect of Ezekiel\'s vision, as illustrative of the particular Tarot Key. With the French occultist, and in the design itself, the symbolic picture stands for the perpetual motion of a fluidic universe and for the flux of human life. The Sphinx is the equilibrium therein. The transliteration of <i>Taro</i> as <i>Rota</i> is inscribed on the wheel, counterchanged with the letters of the Divine Name--to shew that Providence is imphed through all. But this is the Divine intention within, and the similar intention without is exemplified by the four Living Creatures. Sometimes the sphinx is represented couchant on a pedestal above, which defrauds the symbolism by stultifying the essential idea of stability amidst movement.</p><p>Behind the general notion expressed in the symbol there lies the denial of chance and the fatality which is implied therein. It may be added that, from the days of Lévi onward, the occult explanations of this card are--even for occultism itself--of a singularly fatuous kind. It has been said to mean principle, fecundity, virile honour, ruling authority, etc. The findings of common fortune-telling are better than this on their own plane.</p>',
 	interpretation:'z',
 	suit: 'Major Arcana'
 },
@@ -114,7 +114,7 @@ var deck = [
 	image: imagePath + "maj12" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '<p>The gallows from which he is suspended forms a <i>Tau</i> cross, while the figure--from the position of the legs--forms a fylfot cross. There is a nimbus about the head of the seeming martyr. It should be noted (1) that the tree of sacrifice is living wood, with leaves thereon; (2) that the face expresses deep entrancement, not suffering; (3) that the figure, as a whole, suggests life in suspension, but life and not death. It is a card of profound significance, but all the significance is veiled. One of his editors suggests that Éliphas Lévi did not know the meaning, which is unquestionable nor did the editor himself. It has been called falsely a card of martyrdom, a card a of prudence, a card of the Great Work, a card of duty; but we may exhaust all published interpretations and find only vanity. I will say very simply on my own part that it expresses the relation, in one of its aspects, between the Divine and the Universe.</p><p>He who can understand that the story of his higher nature is imbedded in this symbolism will receive intimations concerning a great awakening that is possible, and will know that after the sacred Mystery of Death there is a glorious Mystery of Resurrection.</p>',
+	PKT: '<p>The gallows from which he is suspended forms a <i>Tau</i> cross, while the figure--from the position of the legs--forms a fylfot cross. There is a nimbus about the head of the seeming martyr. It should be noted (1) that the tree of sacrifice is living wood, with leaves thereon; (2) that the face expresses deep entrancement, not suffering; (3) that the figure, as a whole, suggests life in suspension, but life and not death. It is a card of profound significance, but all the significance is veiled. One of his editors suggests that Eliphas Levi did not know the meaning, which is unquestionable nor did the editor himself. It has been called falsely a card of martyrdom, a card a of prudence, a card of the Great Work, a card of duty; but we may exhaust all published interpretations and find only vanity. I will say very simply on my own part that it expresses the relation, in one of its aspects, between the Divine and the Universe.</p><p>He who can understand that the story of his higher nature is imbedded in this symbolism will receive intimations concerning a great awakening that is possible, and will know that after the sacred Mystery of Death there is a glorious Mystery of Resurrection.</p>',
 	interpretation:'z',
 	suit: 'Major Arcana'
 },
@@ -141,7 +141,7 @@ var deck = [
 	image: imagePath + "maj15" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '<p>The design is an accommodation, mean or harmony, between several motives mentioned in the first part. The Horned Goat of Mendes, with wings like those of a bat, is standing on an altar. At the pit of the stomach there is the sign of Mercury. The right hand is upraised and extended, being the reverse of that benediction which is given by the Hierophant in the fifth card. In the left hand there is a great flaming torch, inverted towards the earth. A reversed pentagram is on the forehead. There is a ring in front of the altar, from which two chains are carried to the necks of two figures, male and female. These are analogous with those of the fifth card, as if Adam and Eve after the Fall. Hereof is the chain and fatality of the material life.</p><p>The figures are tailed, to signify the animal nature, but there is human intelligence in the faces, and he who is exalted above them is not to be their master for ever. Even now, he is also a bondsman, sustained by the evil that is in him and blind to the liberty of service. With more than his usual derision for the arts which he pretended to respect and interpret as a master therein, Éliphas Lévi affirms that the Baphometic figure is occult science and magic. Another commentator says that in the Divine world it signifies predestination, but there is no correspondence in that world with the things which below are of the brute. What it does signify is the Dweller on the Threshold without the Mystical Garden when those are driven forth therefrom who have eaten the forbidden fruit.</p>',
+	PKT: '<p>The design is an accommodation, mean or harmony, between several motives mentioned in the first part. The Horned Goat of Mendes, with wings like those of a bat, is standing on an altar. At the pit of the stomach there is the sign of Mercury. The right hand is upraised and extended, being the reverse of that benediction which is given by the Hierophant in the fifth card. In the left hand there is a great flaming torch, inverted towards the earth. A reversed pentagram is on the forehead. There is a ring in front of the altar, from which two chains are carried to the necks of two figures, male and female. These are analogous with those of the fifth card, as if Adam and Eve after the Fall. Hereof is the chain and fatality of the material life.</p><p>The figures are tailed, to signify the animal nature, but there is human intelligence in the faces, and he who is exalted above them is not to be their master for ever. Even now, he is also a bondsman, sustained by the evil that is in him and blind to the liberty of service. With more than his usual derision for the arts which he pretended to respect and interpret as a master therein, Eliphas Levi affirms that the Baphometic figure is occult science and magic. Another commentator says that in the Divine world it signifies predestination, but there is no correspondence in that world with the things which below are of the brute. What it does signify is the Dweller on the Threshold without the Mystical Garden when those are driven forth therefrom who have eaten the forbidden fruit.</p>',
 	interpretation:'z',
 	suit: 'Major Arcana'
 },
@@ -200,11 +200,11 @@ var deck = [
 	suit: 'Major Arcana'
 },
 {
-	name: "One of Wands",
+	name: "Ace of Wands",
 	image: imagePath + "wands01" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A hand issuing from a cloud grasps a stout wand or club. <h3><i>Divinatory Meanings</i>:</h3><p>Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance. </p><h3><i>Reversed</i>:</h3><p>Fall, decadence, ruin, perdition, to perish also a certain clouded joy.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -213,7 +213,7 @@ var deck = [
 	image: imagePath + "wands02" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A tall man looks from a battlemented roof over sea and shore; he holds a globe in his right hand, while a staff in his left rests on the battlement; another is fixed in a ring. The Rose and Cross and Lily should be noticed on the left side. <h3><i>Divinatory Meanings</i>:</h3><p>Between the alternative readings there is no marriage possible; on the one hand, riches, fortune, magnificence; on the other, physical suffering, disease, chagrin, sadness, mortification. The design gives one suggestion; here is a lord overlooking his dominion and alternately contemplating a globe; it looks like the malady, the mortification, the sadness of Alexander amidst the grandeur of this world\'s wealth. </p><h3><i>Reversed</i>:</h3><p>Surprise, wonder, enchantment, emotion, trouble, fear.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -222,7 +222,7 @@ var deck = [
 	image: imagePath + "wands03" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A calm, stately personage, with his back turned, looking from a cliff\'s edge at ships passing over the sea. Three staves are planted in the ground, and he leans slightly on one of them. <h3><i>Divinatory Meanings</i>:</h3><p>He symbolizes established strength, enterprise, effort, trade, commerce, discovery; those are his ships, bearing his merchandise, which are sailing over the sea. The card also signifies able co-operation in business, as if the successful merchant prince were looking from his side towards yours with a view to help you. </p><h3><i>Reversed</i>:</h3><p>The end of troubles, suspension or cessation of adversity, toil and disappointment.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -231,7 +231,7 @@ var deck = [
 	image: imagePath + "wands04" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>From the four great staves planted in the foreground there is a great garland suspended; two female figures uplift nosegays; at their side is a bridge over a moat, leading to an old manorial house. <h3><i>Divinatory Meanings</i>:</h3><p>They are for once almost on the surface--country life, haven of refuge, a species of domestic harvest-home, repose, concord, harmony, prosperity, peace, and the perfected work of these. </p><h3><i>Reversed</i>:</h3><p>The meaning remains unaltered; it is prosperity, increase, felicity, beauty, embellishment.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -240,7 +240,7 @@ var deck = [
 	image: imagePath + "wands05" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the <h3><i>Divinatory Meanings</i>:</h3><p>Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence. </p><h3><i>Reversed</i>:</h3><p>Litigation, disputes, trickery, contradiction.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -249,7 +249,7 @@ var deck = [
 	image: imagePath + "wands06" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A laurelled horseman bears one staff adorned with a laurel crown; footmen with staves are at his side. <h3><i>Divinatory Meanings</i>:</h3><p>The card has been so designed that it can cover several significations; on the surface, it is a victor triumphing, but it is also great news, such as might be carried in state by the King\'s courier; it is expectation crowned with its own desire, the crown of hope, and so forth. </p><h3><i>Reversed</i>:</h3><p>Apprehension, fear, as of a victorious enemy at the gate; treachery, disloyalty, as of gates being opened to the enemy; also indefinite delay.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -258,7 +258,7 @@ var deck = [
 	image: imagePath + "wands07" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A young man on a craggy eminence brandishing a staff; six other staves are raised towards him from below. <h3><i>Divinatory Meanings</i>:</h3><p>It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business--negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him. </p><h3><i>Reversed</i>:</h3><p>Perplexity, embarrassments, anxiety. It is also a caution against indecision.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -267,7 +267,7 @@ var deck = [
 	image: imagePath + "wands08" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The card represents motion through the immovable-a flight of wands through an open country; but they draw to the term of their course. That which they signify is at hand; it may be even on the threshold. <h3><i>Divinatory Meanings</i>:</h3><p>Activity in undertakings, the path of such activity, swiftness, as that of an express messenger; great haste, great hope, speed towards an end which promises assured felicity; generally, that which is on the move; also the arrows of love. </p><h3><i>Reversed</i>:</h3><p>Arrows of jealousy, internal dispute, stingings of conscience, quarrels; and domestic disputes for persons who are married.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -276,7 +276,7 @@ var deck = [
 	image: imagePath + "wands09" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The figure leans upon his staff and has an expectant look, as if awaiting an enemy. Behind are eight other staves--erect, in orderly disposition, like a palisade. <h3><i>Divinatory Meanings</i>:</h3><p>The card signifies strength in opposition. If attacked, the person will meet an onslaught boldly; and his build shews, that he may prove a formidable antagonist. With this main significance there are all its possible adjuncts--delay, suspension, adjournment. </p><h3><i>Reversed</i>:</h3><p>Obstacles, adversity, calamity.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -285,7 +285,7 @@ var deck = [
 	image: imagePath + "wands10" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A man oppressed by the weight of the ten staves which he is carrying. <h3><i>Divinatory Meanings</i>:</h3><p>A card of many significances, and some of the readings cannot be harmonized. I set aside that which connects it with honour and good faith. The chief meaning is oppression simply, but it is also fortune, gain, any kind of success, and then it is the oppression of these things. It is also a card of false-seeming, disguise, perfidy. The place which the figure is approaching may suffer from the rods that he carries. Success is stultified if the Nine of Swords follows, and if it is a question of a lawsuit, there will be certain loss. </p><h3><i>Reversed</i>:</h3><p>Contrarieties, difficulties, intrigues, and their analogies.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -294,7 +294,7 @@ var deck = [
 	image: imagePath + "wands11" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>In a scene similar to the former, a young man stands in the act of proclamation. He is unknown but faithful, and his tidings are strange. <h3><i>Divinatory Meanings</i>:</h3><p>Dark young man, faithful, a lover, an envoy, a postman. Beside a man, he will bear favourable testimony concerning him. A dangerous rival, if followed by the Page of Cups. Has the chief qualities of his suit. He may signify family intelligence. </p><h3><i>Reversed</i>:</h3><p>Anecdotes, announcements, evil news. Also indecision and the instability which accompanies it.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -303,7 +303,7 @@ var deck = [
 	image: imagePath + "wands12" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>He is shewn as if upon a journey, armed with a short wand, and although mailed is not on a warlike errand. He is passing mounds or pyramids. The motion of the horse is a key to the character of its rider, and suggests the precipitate mood, or things connected therewith. <h3><i>Divinatory Meanings</i>:</h3><p>Departure, absence, flight, emigration. A dark young man, friendly. Change of residence. </p><h3><i>Reversed</i>:</h3><p>Rupture, division, interruption, discord.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -312,7 +312,7 @@ var deck = [
 	image: imagePath + "wands13" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The Wands throughout this suit are always in leaf, as it is a suit of life and animation. Emotionally and otherwise, the Queen\'s personality corresponds to that of the King, but is more magnetic. <h3><i>Divinatory Meanings</i>:</h3><p>A dark woman, countrywoman, friendly, chaste, loving, honourable. If the card beside her signifies a man, she is well disposed towards him; if a woman, she is interested in the Querent. Also, love of money, or a certain success in business. </p><h3><i>Reversed</i>:</h3><p>Good, economical, obliging, serviceable. Signifies also--but in certain positions and in the neighbourhood of other cards tending in such directions--opposition, jealousy, even deceit and infidelity.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
@@ -321,16 +321,16 @@ var deck = [
 	image: imagePath + "wands14" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The physical and emotional nature to which this card is attributed is dark, ardent, lithe, animated, impassioned, noble. The King uplifts a flowering wand, and wears, like his three correspondences in the remaining suits, what is called a cap of maintenance beneath his crown. He connects with the symbol of the lion, which is emblazoned on the back of his throne. <h3><i>Divinatory Meanings</i>:</h3><p>Dark man, friendly, countryman, generally married, honest and conscientious. The card always signifies honesty, and may mean news concerning an unexpected heritage to fall in before very long. </p><h3><i>Reversed</i>:</h3><p>Good, but severe; austere, yet tolerant.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
 {
-	name: "One of Cups",
+	name: "Ace of Cups",
 	image: imagePath + "cups01" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The waters are beneath, and thereon are water-lilies; the hand issues from the cloud, holding in its palm the cup, from which four streams are pouring; a dove, bearing in its bill a cross-marked Host, descends to place the Wafer in the Cup; the dew of water is falling on all sides. It is an intimation of that which may lie behind the Lesser Arcana. <h3><i>Divinatory Meanings</i>:</h3><p>House of the true heart, joy, content, abode, nourishment, abundance, fertility; Holy Table, felicity hereof. </p><h3><i>Reversed</i>:</h3><p>House of the false heart, mutation, instability, revolution.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -339,7 +339,7 @@ var deck = [
 	image: imagePath + "cups02" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A youth and maiden are pledging one another, and above their cups rises the Caduceus of Hermes, between the great wings of which there appears a lion\'s head. It is a variant of a sign which is found in a few old examples of this card. Some curious emblematical meanings are attached to it, but they do not concern us in this place. <h3><i>Divinatory Meanings</i>:</h3><p>Love, passion, friendship, affinity, union, concord, sympathy, the interrelation of the sexes, and--as a suggestion apart from all offices of divination--that desire which is not in Nature, but by which Nature is sanctified.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -348,7 +348,7 @@ var deck = [
 	image: imagePath + "cups03" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Maidens in a garden-ground with cups uplifted, as if pledging one another. <h3><i>Divinatory Meanings</i>:</h3><p>The conclusion of any matter in plenty, perfection and merriment; happy issue, victory, fulfilment, solace, healing, </p><h3><i>Reversed</i>:</h3><p>Expedition, dispatch, achievement, end. It signifies also the side of excess in physical enjoyment, and the pleasures of the senses.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -357,7 +357,7 @@ var deck = [
 	image: imagePath + "cups04" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A young man is seated under a tree and contemplates three cups set on the grass before him; an arm issuing from a cloud offers him another cup. His expression notwithstanding is one of discontent with his environment. <h3><i>Divinatory Meanings</i>:</h3><p>Weariness, disgust, aversion, imaginary vexations, as if the wine of this world had caused satiety only; another wine, as if a fairy gift, is now offered the wastrel, but he sees no consolation therein. This is also a card of blended pleasure. </p><h3><i>Reversed</i>:</h3><p>Novelty, presage, new instruction, new relations.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -366,7 +366,7 @@ var deck = [
 	image: imagePath + "cups05" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A dark, cloaked figure, looking sideways at three prone cups two others stand upright behind him; a bridge is in the background, leading to a small keep or holding. <h3><i>Divanatory Meanings</i>:</h3><p>It is a card of loss, but something remains over; three have been taken, but two are left; it is a card of inheritance, patrimony, transmission, but not corresponding to expectations; with some interpreters it is a card of marriage, but not without bitterness or frustration. </p><h3><i>Reversed</i>:</h3><p>News, alliances, affinity, consanguinity, ancestry, return, false projects.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -375,7 +375,7 @@ var deck = [
 	image: imagePath + "cups06" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Children in an old garden, their cups filled with flowers. <h3><i>Divinatory Meanings</i>:</h3><p>A card of the past and of memories, looking back, as--for example--on childhood; happiness, enjoyment, but coming rather from the past; things that have vanished. Another reading reverses this, giving new relations, new knowledge, new environment, and then the children are disporting in an unfamiliar precinct. </p><h3><i>Reversed</i>:</h3><p>The future, renewal, that which will come to pass presently.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -384,7 +384,7 @@ var deck = [
 	image: imagePath + "cups07" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Strange chalices of vision, but the images are more especially those of the fantastic spirit. <h3><i>Divinatory Meanings</i>:</h3><p>Fairy favours, images of reflection, sentiment, imagination, things seen in the glass of contemplation; some attainment in these degrees, but nothing permanent or substantial is suggested. </p><h3><i>Reversed</i>:</h3><p>Desire, will, determination, project.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -393,7 +393,7 @@ var deck = [
 	image: imagePath + "cups08" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A man of dejected aspect is deserting the cups of his felicity, enterprise, undertaking or previous concern. <h3><i>Divinatory Meanings</i>:</h3><p>The card speaks for itself on the surface, but other readings are entirely antithetical--giving joy, mildness, timidity, honour, modesty. In practice, it is usually found that the card shews the decline of a matter, or that a matter which has been thought to be important is really of slight consequence--either for good or evil. </p><h3><i>Reversed</i>:</h3><p>Great joy, happiness, feasting.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -402,7 +402,7 @@ var deck = [
 	image: imagePath + "cups09" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A goodly personage has feasted to his heart\'s content, and abundant refreshment of wine is on the arched counter behind him, seeming to indicate that the future is also assured. The picture offers the material side only, but there are other aspects. <h3><i>Divinatory Meanings</i>:</h3><p>Concord, contentment, physical <i>bien-être</i>; also victory, success, advantage; satisfaction for the Querent or person for whom the consultation is made. </p><h3><i>Reversed</i>:</h3><p>Truth, loyalty, liberty; but the readings vary and include mistakes, imperfections, etc.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -411,7 +411,7 @@ var deck = [
 	image: imagePath + "cups10" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Appearance of Cups in a rainbow; it is contemplated in wonder and ecstacy by a man and woman below, evidently husband and wife. His right arm is about her; his left is raised upward; she raises her right arm. The two children dancing near them have not observed the prodigy but are happy after their own manner. There is a home-scene beyond. <h3><i>Divinatory Meanings</i>:</h3><p>Contentment, repose of the entire heart; the perfection of that state; also perfection of human love and friendship; if with several picture-cards, a person who is taking charge of the Querent\'s interests; also the town, village or country inhabited by the Querent. </p><h3><i>Reversed</i>:</h3><p>Repose of the false heart, indignation, violence.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -420,7 +420,7 @@ var deck = [
 	image: imagePath + "cups11" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A fair, pleasing, somewhat effeminate page, of studious and intent aspect, contemplates a fish rising from a cup to look at him. It is the pictures of the mind taking form. <h3><i>Divinatory Meanings</i>:</h3><p>Fair young man, one impelled to render service and with whom the Querent will be connected; a studious youth; news, message; application, reflection, meditation; also these things directed to business. </p><h3><i>Reversed</i>:</h3><p>Taste, inclination, attachment, seduction, deception, artifice.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -429,7 +429,7 @@ var deck = [
 	image: imagePath + "cups12" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Graceful, but not warlike; riding quietly, wearing a winged helmet, referring to those higher graces of the imagination which sometimes characterize this card. He too is a dreamer, but the images of the side of sense haunt him in his vision. <h3><i>Divinatory Meanings</i>:</h3><p>Arrival, approach--sometimes that of a messenger; advances, proposition, demeanour, invitation, incitement. </p><h3><i>Reversed</i>:</h3><p>Trickery, artifice, subtlety, swindling, duplicity, fraud.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -438,7 +438,7 @@ var deck = [
 	image: imagePath + "cups13" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Beautiful, fair, dreamy--as one who sees visions in a cup. This is, however, only one of her aspects; she sees, but she also acts, and her activity feeds her dream. <h3><i>Divinatory Meanings</i>:</h3><p>Good, fair woman; honest, devoted woman, who will do service to the Querent; loving intelligence, and hence the gift of vision; success, happiness, pleasure; also wisdom, virtue; a perfect spouse and a good mother. </p><h3><i>Reversed</i>:</h3><p>The accounts vary; good woman; otherwise, distinguished woman but one not to be trusted; perverse woman; vice, dishonour, depravity.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
@@ -447,16 +447,16 @@ var deck = [
 	image: imagePath + "cups14" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>He holds a short sceptre in his left hand and a great cup in his right; his throne is set upon the sea; on one side a ship is riding and on the other a dolphin is leaping. The implicit is that the Sign of the Cup naturally refers to water, which appears in all the court cards. <h3><i>Divinatory Meanings</i>:</h3><p>Fair man, man of business, law, or divinity; responsible, disposed to oblige the Querent; also equity, art and science, including those who profess science, law and art; creative intelligence. </p><h3><i>Reversed</i>:</h3><p>Dishonest, double-dealing man; roguery, exaction, injustice, vice, scandal, pillage, considerable loss.</p>',
 	interpretation:'z',
 	suit: 'cups'
 },
 {
-	name: "One of Swords",
+	name: "Ace of Swords",
 	image: imagePath + "swords01" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A hand issues from a cloud, grasping as word, the point of which is encircled by a crown. <h3><i>Divinatory Meanings</i>:</h3><p>Triumph, the excessive degree in everything, conquest, triumph of force. It is a card of great force, in love as well as in hatred. The crown may carry a much higher significance than comes usually within the sphere of fortune-telling. </p><h3><i>Reversed</i>:</h3><p>The same, but the results are disastrous; another account says--conception, childbirth, augmentation, multiplicity.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -465,7 +465,7 @@ var deck = [
 	image: imagePath + "swords02" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A hoodwinked female figure balances two swords upon her shoulders. <h3><i>Divinatory Meanings</i>:</h3><p>Conformity and the equipoise which it suggests, courage, friendship, concord in a state of arms; another reading gives tenderness, affection, intimacy. The suggestion of harmony and other favourable readings must be considered in a qualified manner, as Swords generally are not symbolical of beneficent forces in human affairs. </p><h3><i>Reversed</i>:</h3><p>Imposture, falsehood, duplicity, disloyalty.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -474,7 +474,7 @@ var deck = [
 	image: imagePath + "swords03" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Three swords piercing a heart; cloud and rain behind. <h3><i>Divinatory Meanings</i>:</h3><p>Removal, absence, delay, division, rupture, dispersion, and all that the design signifies naturally, being too simple and obvious to call for specific enumeration. </p><h3><i>Reversed</i>:</h3><p>Mental alienation, error, loss, distraction, disorder, confusion.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -483,7 +483,7 @@ var deck = [
 	image: imagePath + "swords04" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The effigy of a knight in the attitude of prayer, at full length upon his tomb. <h3><i>Divinatory Meanings</i>:</h3><p>Vigilance, retreat, solitude, hermit\'s repose, exile, tomb and coffin. It is these last that have suggested the design. </p><h3><i>Reversed</i>:</h3><p>Wise administration, circumspection, economy, avarice, precaution, testament.</p>',
 	interpretation:'z',
 	suit: 'swords'},
 {
@@ -491,7 +491,7 @@ var deck = [
 	image: imagePath + "swords05" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A disdainful man looks after two retreating and dejected figures. Their swords lie upon the ground. He carries two others on his left shoulder, and a third sword is in his right hand, point to earth. He is the master in possession of the field. <h3><i>Divinatory Meanings</i>:</h3><p>Degradation, destruction, revocation, infamy, dishonour, loss, with the variants and analogues of these. </p><h3><i>Reversed</i>:</h3><p>The same; burial and obsequies.</p>',
 	interpretation:'z',
 	suit: 'swords'},
 {
@@ -499,7 +499,7 @@ var deck = [
 	image: imagePath + "swords06" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A ferryman carrying passengers in his punt to the further shore. The course is smooth, and seeing that the freight is light, it may be noted that the work is not beyond his strength. <h3><i>Divinatory Meanings</i>:</h3><p>journey by water, route, way, envoy, commissionary, expedient. </p><h3><i>Reversed</i>:</h3><p>Declaration, confession, publicity; one account says that it is a proposal of love.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -508,7 +508,7 @@ var deck = [
 	image: imagePath + "swords07" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A man in the act of carrying away five swords rapidly; the two others of the card remain stuck in the ground. A camp is close at hand. <h3><i>Divinatory Meanings</i>:</h3><p>Design, attempt, wish, hope, confidence; also quarrelling, a plan that may fail, annoyance. The design is uncertain in its import, because the significations are widely at variance with each other. </p><h3><i>Reversed</i>:</h3><p>Good advice, counsel, instruction, slander, babbling.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -517,7 +517,7 @@ var deck = [
 	image: imagePath + "swords08" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A woman, bound and hoodwinked, with the swords of the card about her. Yet it is rather a card of temporary durance than of irretrievable bondage. <h3><i>Divinatory Meanings</i>:</h3><p>Bad news, violent chagrin, crisis, censure, power in trammels, conflict, calumny; also sickness. </p><h3><i>Reversed</i>:</h3><p>Disquiet, difficulty, opposition, accident, treachery; what is unforeseen; fatality.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -526,7 +526,7 @@ var deck = [
 	image: imagePath + "swords09" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>One seated on her couch in lamentation, with the swords over her. She is as one who knows no sorrow which is like unto hers. It is a card of utter desolation. <h3><i>Divinatory Meanings</i>:</h3><p>Death, failure, miscarriage, delay, deception, disappointment, despair. </p><h3><i>Reversed</i>:</h3><p>Imprisonment, suspicion, doubt, reasonable fear, shame.</p>',
 	interpretation:'z',
 	suit: 'swords'},
 {
@@ -534,7 +534,7 @@ var deck = [
 	image: imagePath + "swords10" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A prostrate figure, pierced by all the swords belonging to the card. <h3><i>Divinatory Meanings</i>:</h3><p>Whatsoever is intimated by the design; also pain, affliction, tears, sadness, desolation. It is not especially a card of violent death. </p><h3><i>Reversed</i>:</h3><p>Advantage, profit, success, favour, but none of these are permanent; also power and authority.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -543,7 +543,7 @@ var deck = [
 	image: imagePath + "swords11" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A lithe, active figure holds a sword upright in both hands, while in the act of swift walking. He is passing over rugged land, and about his way the clouds are collocated wildly. He is alert and lithe, looking this way and that, as if an expected enemy might appear at any moment. <h3><i>Divinatory Meanings</i>:</h3><p>Authority, overseeing, secret service, vigilance, spying, examination, and the qualities thereto belonging. </p><h3><i>Reversed</i>:</h3><p>More evil side of these qualities; what is unforeseen, unprepared state; sickness is also intimated.</p>',
 	interpretation:'z',
 	suit: 'swords'},
 {
@@ -551,7 +551,7 @@ var deck = [
 	image: imagePath + "swords12" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>He is riding in full course, as if scattering his enemies. In the design he is really a prototypical hero of romantic chivalry. He might almost be Galahad, whose sword is swift and sure because he is clean of heart. <h3><i>Divinatory Meanings</i>:</h3><p>Skill, bravery, capacity, defence, address, enmity, wrath, war, destruction, opposition, resistance, ruin. There is therefore a sense in which the card signifies death, but it carries this meaning only in its proximity to other cards of fatality. </p><h3><i>Reversed</i>:</h3><p>Imprudence, incapacity, extravagance.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -560,7 +560,7 @@ var deck = [
 	image: imagePath + "swords13" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Her right hand raises the weapon vertically and the hilt rests on an arm of her royal chair the left hand is extended, the arm raised her countenance is severe but chastened; it suggests familiarity with sorrow. It does not represent mercy, and, her sword notwithstanding, she is scarcely a symbol of power. <h3><i>Divinatory Meanings</i>:</h3><p>Widowhood, female sadness and embarrassment, absence, sterility, mourning, privation, separation. </p><h3><i>Reversed</i>:</h3><p>Malice, bigotry, artifice, prudery, bale, deceit.</p>',
 	interpretation:'z',
 	suit: 'swords'
 },
@@ -569,15 +569,15 @@ var deck = [
 	image: imagePath + "swords14" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>He sits in judgment, holding the unsheathed sign of his suit. He recalls, of course, the conventional Symbol of justice in the Trumps Major, and he may represent this virtue, but he is rather the power of life and death, in virtue of his office. <h3><i>Divinatory Meanings</i>:</h3><p>Whatsoever arises out of the idea of judgment and all its connexions-power, command, authority, militant intelligence, law, offices of the crown, and so forth. </p><h3><i>Reversed</i>:</h3><p>Cruelty, perversity, barbarity, perfidy, evil intention.</p>',
 	interpretation:'z',
 	suit: 'swords'},
 {
-	name: "One of Pentacles",
+	name: "Ace of Pentacles",
 	image: imagePath + "pents01" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A hand--issuing, as usual, from a cloud--holds up a pentacle. <h3><i>Divinatory Meanings</i>:</h3><p>Perfect contentment, felicity, ecstasy; also speedy intelligence; gold. </p><h3><i>Reversed</i>:</h3><p>The evil side of wealth, bad intelligence; also great riches. In any case it shews prosperity, comfortable material conditions, but whether these are of advantage to the possessor will depend on whether the card is reversed or not.</p>',
 	interpretation:'z',
 	suit:'pentacles'
 },
@@ -586,7 +586,7 @@ var deck = [
 	image: imagePath + "pents02" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A young man, in the act of dancing, has a pentacle in either hand, and they are joined by that endless cord which is like the number 8 reversed. <h3><i>Divinatory Meanings</i>:</h3><p>On the one hand it is represented as a card of gaiety, recreation and its connexions, which is the subject of the design; but it is read also as news and messages in writing, as obstacles, agitation, trouble, embroilment. </p><h3><i>Reversed</i>:</h3><p>Enforced gaiety, simulated enjoyment, literal sense, handwriting, composition, letters of exchange.</p>',
 	interpretation:'z',
 	suit:'pentacles'
 },
@@ -595,7 +595,7 @@ var deck = [
 	image: imagePath + "pents03" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A sculptor at his work in a monastery. Compare the design which illustrates the Eight of Pentacles. The apprentice or amateur therein has received his reward and is now at work in earnest. <h3><i>Divinatory Meanings</i>:</h3><p><i>Métier</i>, trade, skilled labour; usually, however, regarded as a card of nobility, aristocracy, renown, glory. </p><h3><i>Reversed</i>:</h3><p>Mediocrity, in work and otherwise, puerility, pettiness, weakness.</p>',
 	interpretation:'z',
 	suit: 'pentacles'},
 {
@@ -603,7 +603,7 @@ var deck = [
 	image: imagePath + "pents04" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A crowned figure, having a pentacle over his crown, clasps another with hands and arms; two pentacles are under his feet. He holds to that which he has. <h3><i>Divinatory Meanings</i>:</h3><p>The surety of possessions, cleaving to that which one has, gift, legacy, inheritance. </p><h3><i>Reversed</i>:</h3><p>Suspense, delay, opposition.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 },
@@ -612,7 +612,7 @@ var deck = [
 	image: imagePath + "pents05" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>Two mendicants in a snow-storm pass a lighted casement. <h3><i>Divinatory Meanings</i>:</h3><p>The card foretells material trouble above all, whether in the form illustrated--that is, destitution--or otherwise. For some cartomancists, it is a card of love and lovers-wife, husband, friend, mistress; also concordance, affinities. These alternatives cannot be harmonized. </p><h3><i>Reversed</i>:</h3><p>Disorder, chaos, ruin, discord, profligacy.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 },
@@ -621,7 +621,7 @@ var deck = [
 	image: imagePath + "pents06" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A person in the guise of a merchant weighs money in a pair of scales and distributes it to the needy and distressed. It is a testimony to his own success in life, as well as to his goodness of heart. <h3><i>Divinatory Meanings</i>:</h3><p>Presents, gifts, gratification another account says attention, vigilance now is the accepted time, present prosperity, etc. </p><h3><i>Reversed</i>:</h3><p>Desire, cupidity, envy, jealousy, illusion.</p>',
 	interpretation:'z',
 	suit:'pentacles'
 },
@@ -630,7 +630,7 @@ var deck = [
 	image: imagePath + "pents07" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A young man, leaning on his staff, looks intently at seven pentacles attached to a clump of greenery on his right; one would say that these were his treasures and that his heart was there. <h3><i>Divinatory Meanings</i>:</h3><p>These are exceedingly contradictory; in the main, it is a card of money, business, barter; but one reading gives altercation, quarrels--and another innocence, ingenuity, purgation. </p><h3><i>Reversed</i>:</h3><p>Cause for anxiety regarding money which it may be proposed to lend.</p>',
 	interpretation:'z',
 	suit: 'pentacles'},
 {
@@ -638,7 +638,7 @@ var deck = [
 	image: imagePath + "pents08" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>An artist in stone at his work, which he exhibits in the form of trophies. <h3><i>Divinatory Meanings</i>:</h3><p>Work, employment, commission, craftsmanship, skill in craft and business, perhaps in the preparatory stage. </p><h3><i>Reversed</i>:</h3><p>Voided ambition, vanity, cupidity, exaction, usury. It may also signify the possession of skill, in the sense of the ingenious mind turned to cunning and intrigue.</p>',
 	interpretation:'z',
 	suit: 'pentacles'},
 {
@@ -646,7 +646,7 @@ var deck = [
 	image: imagePath + "pents09" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A woman, with a bird upon her wrist, stands amidst a great abundance of grapevines in the garden of a manorial house. It is a wide domain, suggesting plenty in all things. Possibly it is her own possession and testifies to material well-being. <h3><i>Divinatory Meanings</i>:</h3><p>Prudence, safety, success, accomplishment, certitude, discernment. </p><h3><i>Reversed</i>:</h3><p>Roguery, deception, voided project, bad faith.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 },
@@ -655,7 +655,7 @@ var deck = [
 	image: imagePath + "pents10" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A man and woman beneath an archway which gives entrance to a house and domain. They are accompanied by a child, who looks curiously at two dogs accosting an ancient personage seated in the foreground. The child\'s hand is on one of them. <h3><i>Divinatory Meanings</i>:</h3><p>Gain, riches; family matters, archives, extraction, the abode of a family. </p><h3><i>Reversed</i>:</h3><p>Chance, fatality, loss, robbery, games of hazard; sometimes gift, dowry, pension.</p>',
 	interpretation:'z',
 	suit:'pentacles'
 },
@@ -664,7 +664,7 @@ var deck = [
 	image: imagePath + "pents11" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>A youthful figure, looking intently at the pentacle which hovers over his raised hands. He moves slowly, insensible of that which is about him. <h3><i>Divinatory Meanings</i>:</h3><p>Application, study, scholarship, reflection another reading says news, messages and the bringer thereof; also rule, management. </p><h3><i>Reversed</i>:</h3><p>Prodigality, dissipation, liberality, luxury; unfavourable news.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 },
@@ -673,7 +673,7 @@ var deck = [
 	image: imagePath + "pents12" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>He rides a slow, enduring, heavy horse, to which his own aspect corresponds. He exhibits his symbol, but does not look therein. <h3><i>Divinatory Meanings</i>:</h3><p>Utility, serviceableness, interest, responsibility, rectitude-all on the normal and external plane. </p><h3><i>Reversed</i>:</h3><p>inertia, idleness, repose of that kind, stagnation; also placidity, discouragement, carelessness.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 },
@@ -682,7 +682,7 @@ var deck = [
 	image: imagePath + "pents13" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The face suggests that of a dark woman, whose qualities might be summed up in the idea of greatness of soul; she has also the serious cast of intelligence; she contemplates her symbol and may see worlds therein. <h3><i>Divinatory Meanings</i>:</h3><p>Opulence, generosity, magnificence, security, liberty. </p><h3><i>Reversed</i>:</h3><p>Evil, suspicion, suspense, fear, mistrust.</p>',
 	interpretation:'z',
 	suit: 'pentacles'},
 {
@@ -690,7 +690,7 @@ var deck = [
 	image: imagePath + "pents14" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '',
+	PKT: '<p>The figure calls for no special description the face is rather dark, suggesting also courage, but somewhat lethargic in tendency. The bull\'s head should be noted as a recurrent symbol on the throne. The sign of this suit is represented throughout as engraved or blazoned with the pentagram, typifying the correspondence of the four elements in human nature and that by which they may be governed. In many old Tarot packs this suit stood for current coin, money, deniers. I have not invented the substitution of pentacles and I have no special cause to sustain in respect of the alternative. But the consensus of divinatory meanings is on the side of some change, because the cards do not happen to deal especially with questions of money. <h3><i>Divinatory Meanings</i>:</h3><p>Valour, realizing intelligence, business and normal intellectual aptitude, sometimes mathematical gifts and attainments of this kind; success in these paths. </p><h3><i>Reversed</i>:</h3><p>Vice, weakness, ugliness, perversity, corruption, peril.</p>',
 	interpretation:'z',
 	suit: 'pentacles'
 }

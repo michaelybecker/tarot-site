@@ -1,4 +1,4 @@
-var reader = angular.module('tarotReader', ['ui.router', 'ngSanitize']);
+var reader = angular.module('tarotReader', ['ui.router', 'ngSanitize', 'ngAnimate']);
 
 reader.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
@@ -44,6 +44,14 @@ $stateProvider
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/cardindex.tmpl.html"}
+	}
+})
+
+.state('cardsingle', {
+	// url: '/cardindex',
+			views: {
+		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
+		"main": {templateUrl: "./templates/cardsingle.tmpl.html"}
 	}
 })
 

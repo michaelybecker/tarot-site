@@ -6,11 +6,10 @@ transclude: true,
 scope: {
 	deck:"="
 },
-template: '<h1>Card Index</h1>'+
+template:
     '<div class="row cardspace">' +
     '<div class="col-xs-12 cardtitle">' +
-            '<h2>{{ deck.activeCard.name }}</h3>'+
-            '</div></div>' +
+            '<h1>{{ deck.activeCard.name }}</h1>'+
     '<div class="row carddetails">' +
         '<div class="col-xs-12 card-place">'+
             '<img class="img-responsive pull-left card-image" src="{{ deck.activeCard.image }}">'+
@@ -23,3 +22,19 @@ template: '<h1>Card Index</h1>'+
 };
 
 });
+
+reader.directive('customFooter', function(){
+
+return {
+scope: {},
+template:
+'<div class="fill"></div>' +
+'<div class="footer">' +
+'<div class="container">' +
+'<p class="text-muted">&copy All Rights Reserved to <a href="http://michaelhazani.com" alt="Michael Hazani\'s Website" target="_blank">Michael Hazani</a> except where Public Domain.</p>' +
+'</div></div>'
+};
+
+});
+
+
