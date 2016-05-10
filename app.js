@@ -39,6 +39,30 @@ $stateProvider
 	}
 })
 
+.state('spread.threeCard', {
+	// url: '/.spread',
+			views: {
+		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
+		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+	}
+})
+
+.state('spread.celticCross', {
+	// url: '/.spread',
+			views: {
+		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
+		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+	}
+})
+
+.state('spread.treeOfLife', {
+	// url: '/.spread',
+			views: {
+		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
+		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+	}
+})
+
 .state('cardindex', {
 	// url: '/cardindex',
 			views: {

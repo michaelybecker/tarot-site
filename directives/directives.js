@@ -17,7 +17,7 @@ template:
             '<p ng-bind-html="deck.activeCard.PKT"></p>' +
             // '<h3>Interpretation</h3>' +
             // '<p ng-bind-html="deck.activeCard.interpretation"></p>' +
-        '</div>'
+        '</div></div>'
     // '</div>'
 };
 
@@ -31,7 +31,7 @@ template:
 '<div class="fill"></div>' +
 '<div class="footer">' +
 '<div class="container">' +
-'<p class="text-muted">&copy All Rights Reserved to <a href="http://michaelhazani.com" alt="Michael Hazani\'s Website" target="_blank">Michael Hazani</a> except where Public Domain.</p>' +
+'<p class="text-muted">Website by <a href="http://michaelhazani.com" alt="Michael Hazani\'s Website" target="_blank">Michael Hazani</a> all RWS art and acc. text are public domain in the US.</p>' +
 '</div></div>'
 };
 
