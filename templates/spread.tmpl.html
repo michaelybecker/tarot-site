@@ -1,12 +1,13 @@
-<section class="spreads">
+<section class="spreads" ng-controller="spreads">
 <div class="row">
 <div class="col-xs-12">
 <h1>Choose a Spread</h1>
 </div></div>
 <div class="row">
-<div class="col-xs-4" ui-view=".three-card">3 Card Spread</div>
-<div class="col-xs-4" ui-view=".celtic-cross">Celtic Cross</div>
-<div class="col-xs-4" ui-view=".tree-of-life">Tree of Life</div>
+<div class="col-xs-4" ui-sref="spread.three-card">3 Card Spread</div>
+<div class="col-xs-4" ui-sref="spread.celtic-cross">Celtic Cross</div>
+<div class="col-xs-4" ui-sref="spread.tree-of-life">Tree of Life</div>
 </div>
+<div class="row" ui-view="activespread"></div>
 <custom-footer></custom-footer>
 </section>

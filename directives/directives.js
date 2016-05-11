@@ -31,7 +31,7 @@ template:
 '<div class="fill"></div>' +
 '<div class="footer">' +
 '<div class="container">' +
-'<p class="text-muted">Website by <a href="http://michaelhazani.com" alt="Michael Hazani\'s Website" target="_blank">Michael Hazani</a> all RWS art and acc. text are public domain in the US.</p>' +
+'<p class="text-muted">&copy 2016 Website by <a href="http://michaelhazani.com" alt="Michael Hazani\'s Website" target="_blank">Michael Hazani</a> || all RWS art and acc. text are public domain in the US.</p>' +
 '</div></div>'
 };
 

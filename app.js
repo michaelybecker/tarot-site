@@ -10,7 +10,7 @@ $stateProvider
 	url: '/',
 	views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		"main": {templateUrl: "./templates/home.tmpl.html"}
+		"main": {templateUrl: "./templates/spread.tmpl.html"}
 	},
 
 
@@ -39,32 +39,27 @@ $stateProvider
 	}
 })
 
-.state('spread.threeCard', {
+.state('spread.three-card', {
 	// url: '/.spread',
 			views: {
-		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+				'activespread': {templateUrl: "./templates/threecard.spread.tmpl.html"}
 	}
 })
 
-.state('spread.celticCross', {
+.state('spread.celtic-cross', {
 	// url: '/.spread',
 			views: {
-		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+				'activespread': {templateUrl: "./templates/celticcross.spread.tmpl.html"}
 	}
 })
 
-.state('spread.treeOfLife', {
-	// url: '/.spread',
+.state('spread.tree-of-life', {
 			views: {
-		// "sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		// "main": {templateUrl: "./templates/spread.tmpl.html"}
+				'activespread': {templateUrl: "./templates/treeoflife.spread.tmpl.html"}
 	}
 })
 
 .state('cardindex', {
-	// url: '/cardindex',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/cardindex.tmpl.html"}
@@ -72,7 +67,6 @@ $stateProvider
 })
 
 .state('cardsingle', {
-	// url: '/cardindex',
 			views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/cardsingle.tmpl.html"}

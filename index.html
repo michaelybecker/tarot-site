@@ -3,10 +3,16 @@
 
 <head>
     <title>Tarot Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r76/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tweenjs/0.6.1/tweenjs.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
     <script src="https://code.angularjs.org/1.5.5/angular-animate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.5/angular-sanitize.min.js"></script>
+
+
 
     <script src="./resources/cardDB.js"></script>
     <script src="./app.js"></script>
@@ -32,9 +38,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a ui-sref="home">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a ui-sref="spread">Spreads</a></li>
+                    <li class="active"><a ui-sref="home">Home</a></li>
                     <li><a ui-sref="cardindex">Card Index</a></li>
+                    <li><a ui-sref="spread">Spreads</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a ui-sref="about">About</a></li>
