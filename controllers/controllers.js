@@ -498,31 +498,48 @@ reader.controller('tree-of-life', ['$scope', '$log', '$window', 'tarotDeck', fun
     $scope.cardPick = function(card) {
 
         if (!currentCard) {
-            tl.to(camera.position, 1, { x: card.object.position.x + 20, y: card.object.position.y, z: card.object.position.z + 50 });
+            tl.to(card.object.position, 1, { x: -25, y: 0, z: card.object.position.z + 170 });
             $(".overlay").css('visibility', 'visible').hide().fadeTo('opacity', '0.8');
             currentCard = card;
         } else {
-            tl.to(camera.position, 1, {x:0,y:0,z:230});
-            // if (card.object.name == currentCard.object.name) {
-            //     for (refCard in shuffledDeck) {
-            //         if (card.object.name == shuffledDeck[refCard].name) {
-            //             tl.to(card.object.position, 1, shuffledDeck[refCard].position);
-                        $(".overlay").fadeTo('opacity', '0', function(){$(".overlay").hide();});
-            //         }
-            //     }
+            if (card.object.name == currentCard.object.name) {
+                for (refCard in shuffledDeck) {
+                    if (card.object.name == shuffledDeck[refCard].name) {
+                        tl.to(card.object.position, 1, shuffledDeck[refCard].position);
+                        $(".overlay").fadeTo('opacity', '0', function() { $(".overlay").hide(); });
+                    }
+                }
                 currentCard = null;
-            // } else {
-            //     for (refCard in shuffledDeck) {
-            //         if (currentCard.object.name == shuffledDeck[refCard].name) {
-            //             tl.to(currentCard.object.position, 1, shuffledDeck[refCard].position);
-            //         }
-            //     }
-            //     tl.to(card.object.position, 1, { x: -25, y: 0, z: card.object.position.z + 170 }, '-=1');
-            //     $(".overlay").css('visibility', 'visible').hide().fadeTo('opacity', '0.8');
-            //     currentCard = card;
-            // }
+            } else {
+                for (refCard in shuffledDeck) {
+                    if (currentCard.object.name == shuffledDeck[refCard].name) {
+                        tl.to(currentCard.object.position, 1, shuffledDeck[refCard].position);
+                    }
+                }
+                tl.to(card.object.position, 1, { x: -25, y: 0, z: card.object.position.z + 170 }, '-=1');
+                $(".overlay").css('visibility', 'visible').hide().fadeTo('opacity', '0.8');
+                currentCard = card;
+            }
         }
     }
+
+
+    // Alternative card zoom logic
+    // $scope.cardPick = function(card) {
+
+    //     if (!currentCard) {
+    //         tl.to(camera.position, 1, { x: card.object.position.x + 20, y: card.object.position.y, z: card.object.position.z + 50 });
+    //         $(".overlay").css('visibility', 'visible').hide().fadeTo('opacity', '0.8');
+    //         currentCard = card;
+    //     } else {
+    //         tl.to(camera.position, 1, { x: 0, y: 0, z: 230 });
+
+    //         $(".overlay").fadeTo('opacity', '0', function() { $(".overlay").hide(); });
+
+    //         currentCard = null;
+    //     }
+    // }
+
 
     $scope.mouseMove = function(event) {
         mouse.x = (event.offsetX / renderer.domElement.width) * 2 - 1;
@@ -539,9 +556,9 @@ reader.controller('tree-of-life', ['$scope', '$log', '$window', 'tarotDeck', fun
     }
 
     $scope.render = function() {
-        // camera.position.x = (mouse.x) * 20;
-        // camera.position.y = (mouse.y) * 20;
-        // camera.lookAt(scene.position);
+        camera.position.x = (mouse.x) * 20;
+        camera.position.y = (mouse.y) * 20;
+        camera.lookAt(scene.position);
         requestAnimationFrame($scope.render);
         renderer.render(scene, camera);
     }
