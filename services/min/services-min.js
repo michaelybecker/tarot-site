@@ -1,1 +1,1 @@
-reader.service("tarotDeck",["$log",function(e){this.deck=deck,this.deck.activeCard=this.deck[0],this.shuffle=function(){}}]);
+reader.service("tarotDeck",["$log",function(e){this.protoDeck=new Deck,this.deck=this.protoDeck.deck,this.deck.activeCard=this.deck[0],this.shuffledDeck=function(){for(var e=new Deck,t=e.deck,c=t.length,r,o;c;)o=Math.floor(Math.random()*c--),r=t[c],t[c]=t[o],t[o]=r;return t}}]);

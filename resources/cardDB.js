@@ -1,6 +1,6 @@
 var imagePath = "./resources/images/cards/";
-var deck = [
-
+var Deck = function(){
+this.deck = [
 {
 	name: "The Fool",
 	image: imagePath + "maj00" + ".jpg",
@@ -695,3 +695,4 @@ var deck = [
 	suit: 'pentacles'
 }
 ];
+};

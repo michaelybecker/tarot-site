@@ -10,7 +10,7 @@ $stateProvider
 	url: '/',
 	views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		"main": {templateUrl: "./templates/home.tmpl.html"}
+		"main": {templateUrl: "./templates/spread.tmpl.html"}
 	},
 
 
