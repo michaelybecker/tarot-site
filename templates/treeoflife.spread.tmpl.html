@@ -1,6 +1,7 @@
-<section class="treeoflife" ng-controller="spreads">
+<section class="treeoflife" ng-controller="tree-of-life">
 <div class="row">
 <div class="col-xs-12">
 <h1>Tree of Life Spread</h1>
-<div id="container-tree-of-life"></div>
+<div id="container-tree-of-life" ng-mousemove="mouseMove($event)" ng-click="mouseClick($event)"></div>
+<div class="overlay"></div>
 </section>

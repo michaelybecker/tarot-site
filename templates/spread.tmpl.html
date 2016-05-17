@@ -1,13 +1,15 @@
 <section class="spreads" ng-controller="spreads">
-<div class="row">
-<div class="col-xs-12">
-<h1>Choose a Spread</h1>
-</div></div>
-<div class="row">
-<div class="col-xs-4" ui-sref="spread.three-card">3 Card Spread</div>
-<div class="col-xs-4" ui-sref="spread.celtic-cross">Celtic Cross</div>
-<div class="col-xs-4" ui-sref="spread.tree-of-life">Tree of Life</div>
-</div>
-<div class="row" ui-view="activespread"></div>
-<custom-footer></custom-footer>
+    <div class="row">
+        <div class="col-xs-12">
+    <button type="primary" class="btn btn-primary back-button" ui-sref="/"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Home</button>
+            <h1 class="spread-title">Choose a Spread</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4" ><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">3 Card Spread</button></div>
+        <div class="col-xs-4" ui-sref-active="active" ui-sref="spread.celtic-cross"><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">Celtic Cross</button></div>
+        <div class="col-xs-4" ui-sref-active="active" ui-sref="spread.tree-of-life"><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">Tree of Life</button></div>
+    </div>
+    <div class="row" ui-view="activespread"></div>
+    <custom-footer></custom-footer>
 </section>

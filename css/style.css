@@ -12,6 +12,15 @@ section {
   height:90vh;
 }
 
+.subtitle {
+  margin-top:5%;
+  letter-spacing: 0.5em;
+}
+
+.magician {
+  margin-top:5%;
+}
+
 /*&&&&&*/
 
 .cardindex {
@@ -25,7 +34,7 @@ height: 92vh;
 border-right: 1px solid;
 overflow:hidden;
 overflow-y:scroll;
-height: 92vh;
+height: 100vh;
 cursor: default;
 
 }
@@ -49,9 +58,35 @@ background-color: hsla(216, 100%, 50%, 0.1);
   margin-top:10%;
 }
 
-.cardsingle h1, .home, .about, .spreads {
+.cardsingle h1, .home, .about .row, .spreads h1, .spreads .row .col-xs-4, .threecard, .celtic-cross, .tree-of-life{
   text-align:center;
 }
+
+
+/*/////*/
+
+.spread-title {
+  margin-top:-5%;
+  margin-bottom:3%;
+}
+
+.overlay {
+  position:absolute;
+  left:40%;
+  width:60%;
+  top:0;
+  height:100%;
+  background-color: white;
+  /*border: 1px solid;*/
+  /*opacity:0;*/
+  visibility:hidden;
+
+}
+
+
+
+/*/////*/
+
 
 .card-image {
 	float:left;

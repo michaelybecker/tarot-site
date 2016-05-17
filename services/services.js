@@ -2,13 +2,14 @@ reader.service('tarotDeck', ['$log', function($log) {
 
     this.protoDeck = new Deck;
     this.deck = this.protoDeck.deck;
-    // this.shuffledDeck = deck;
+
     this.deck.activeCard = this.deck[0];
 
     this.shuffledDeck = function() {
+
         //deck shuffle logic - implemented using Fisher-Yates shuffle algorithm
-        var deckCon = new Deck;
-        var deck = deckCon.deck;
+        var deckForShuffle = new Deck;
+        var deck = deckForShuffle.deck;
         var m = deck.length,
             t, i;
 

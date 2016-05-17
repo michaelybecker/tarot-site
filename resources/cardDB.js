@@ -1,4 +1,4 @@
-var imagePath = "./resources/images/cards/";
+var imagePath = "./resources/images/optim/";
 var Deck = function(){
 this.deck = [
 {

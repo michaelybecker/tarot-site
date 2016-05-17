@@ -1,3 +1,9 @@
+// TODO: hovers for spread positions
+// TODO: Tree of Life spread
+// TODO: Three.js Load manager
+// TODO: refactor threejs into services
+
+
 var reader = angular.module('tarotReader', ['ui.router', 'ngSanitize', 'ngAnimate']);
 
 reader.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
@@ -10,18 +16,12 @@ $stateProvider
 	url: '/',
 	views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		"main": {templateUrl: "./templates/spread.tmpl.html"}
+		"main": {templateUrl: "./templates/home.tmpl.html"}
 	},
 
 
 })
-.state('home', {
-	// url: '/home',
-			views: {
-		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
-		"main": {templateUrl: "./templates/home.tmpl.html"}
-	}
-})
+
 
 .state('about', {
 	// url: '/home.about',
@@ -75,11 +75,4 @@ $stateProvider
 
 }]);
 
-reader.filter('trusted',
-   function($sce) {
-     return function(ss) {
-       return $sce.trustAsHtml(ss)
-     };
-   }
-)
 

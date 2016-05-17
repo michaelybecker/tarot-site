@@ -10,6 +10,7 @@ template:
     '<div class="row cardspace">' +
     '<div class="col-xs-12 cardtitle">' +
             '<h1>{{ deck.activeCard.name }}</h1>'+
+                    '</div></div>' +
     '<div class="row carddetails">' +
         '<div class="col-xs-12 card-place">'+
             '<img class="img-responsive pull-left card-image" src="{{ deck.activeCard.image }}">'+
