@@ -51,7 +51,7 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
 
     $scope.deck = tarotDeck.deck;
     var shuffledDeck;
-    var camera, renderer, scene, card1, card2, card3;
+    var camera, renderer, scene, card1, card2, card3, pane;
     var meshArr = [];
     var windowHalfX = $window.innerWidth / 2;
     var windowHalfY = $window.innerHeight / 2;
@@ -61,6 +61,7 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
     var positions = [-30, 0, 30];
     var currentCard = null;
     var tl = new TimelineLite();
+    var overlayOn = false;
 
     $scope.init = function() {
 
@@ -76,6 +77,7 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
         renderer.setClearColor(0xffffff);
         renderer.setSize($window.innerWidth / 12 * 10, $window.innerHeight / 12 * 10);
         $('#container-three-card').append(renderer.domElement);
+
 
         scene = new THREE.Scene();
 
@@ -129,8 +131,30 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
 
     $scope.cardClick = function(card) {
 
+        if (!overlayOn) {
+            //pane logic
+            var planeGeo = new THREE.PlaneGeometry($window.innerWidth / 12 * 10, $window.innerHeight / 12 * 10);
+            var planeMat = new THREE.MeshLambertMaterial({ color: 0xffffff, transparent: true, opacity: 0 });
+            pane = new THREE.Mesh(planeGeo, planeMat);
+            pane.name = "overlay";
+            pane.position.set(0, 0, 20);
+            scene.add(pane);
+            overlayOn = !overlayOn;
+        }
+
+        // else {
+
+        //     tl.to(pane.material, 1, { opacity: 0 });
+        //     // scene.remove(pane);
+        //     overlayOn = !overlayOn;
+        // }
+
         if (!currentCard) {
-            tl.to(card.object.position, 1, { x: -20, z: card.object.position.z + 30 });
+            tl.to(card.object.position, 1, { x: -20, z: card.object.position.z + 30 })
+
+            //pane opacity;
+            .to(pane.material, 0.5, { opacity: 0.7 });
+
             currentCard = card;
         } else {
             if (card.object.name == currentCard.object.name) {
@@ -139,6 +163,8 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
                         tl.to(card.object.position, 1, shuffledDeck[refCard].position);
                     }
                 }
+                tl.to(pane.material, 0.3, { opacity: 0, onComplete: function() { scene.remove(pane);
+                        overlayOn = !overlayOn; } }, '-=1');
                 currentCard = null;
             } else {
                 for (refCard in shuffledDeck) {
@@ -147,6 +173,11 @@ reader.controller('three-card', ['$scope', '$window', 'tarotDeck', function($sco
                     }
                 }
                 tl.to(card.object.position, 1, { x: -20, z: card.object.position.z + 30 }, '-=1');
+                // scene.remove(pane);
+                //pane opacity;
+                tl.to(pane.material, 0.3, { opacity: 0, onComplete: function() { scene.remove(pane);
+                        overlayOn = !overlayOn; } }, '-=1');
+                overlayOn = !overlayOn;
                 currentCard = card;
             }
         }
@@ -307,9 +338,22 @@ reader.controller('celtic-cross', ['$scope', '$log', '$window', 'tarotDeck', fun
 
     $scope.cardPick = function(card) {
 
+
+        //pane logic
+        var planeGeo = new THREE.PlaneGeometry($window.innerWidth / 12 * 10, $window.innerHeight / 12 * 10);
+        var planeMat = new THREE.MeshLambertMaterial({ color: 0xffffff, transparent: true, opacity: 0 });
+        var pane = new THREE.Mesh(planeGeo, planeMat);
+        pane.position.set(0, 0, 20);
+        scene.add(pane);
+        console.log(pane);
+
+
         if (!currentCard) {
             //new card to front
-            tl.to(card.object.position, 1, { x: -25, y: 0, z: card.object.position.z + 120 });
+            tl.to(card.object.position, 1, { x: -25, y: 0, z: card.object.position.z + 120 })
+
+
+
             //if cross card
             if (card.object.name == shuffledDeck[1].name) {
                 tl.to(card.object.rotation, 1, { x: 0, y: 0, z: 0 }, '-=1')
@@ -323,7 +367,7 @@ reader.controller('celtic-cross', ['$scope', '$log', '$window', 'tarotDeck', fun
                     if (card.object.name == shuffledDeck[refCard].name) {
                         tl.to(card.object.position, 1, shuffledDeck[refCard].position);
 
-                        //if cross card, also restore posish
+                        //if cross card, also restore position
                         if (card.object.name == shuffledDeck[1].name) {
                             tl.to(card.object.rotation, 1, { x: Math.PI, y: Math.PI, z: Math.PI / 2 }, '-=1')
                         }
@@ -561,6 +605,7 @@ reader.controller('tree-of-life', ['$scope', '$log', '$window', 'tarotDeck', fun
         camera.lookAt(scene.position);
         requestAnimationFrame($scope.render);
         renderer.render(scene, camera);
+
     }
 
     $scope.init();

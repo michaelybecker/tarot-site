@@ -1876,6 +1876,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/resources\/lib\/CSS3DRenderer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/lib\/CSS3DRenderer.js",
+		"outputAbbreviatedPath": "\/resources\/lib\/min\/CSS3DRenderer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/resources\/lib\/min\/CSS3DRenderer-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/resources\/lib\/min\/CSS3DRenderer-min.js",
+		"outputAbbreviatedPath": "\/resources\/lib\/min\/min\/CSS3DRenderer-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/resources\/min\/cardDB-min.js": {
 		"fileType": 64,
 		"ignore": 1,
