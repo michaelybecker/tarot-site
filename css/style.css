@@ -58,7 +58,7 @@ background-color: hsla(216, 100%, 50%, 0.1);
   margin-top:10%;
 }
 
-.cardsingle h1, .home, .about .row, .spreads h2, .spreads .row .col-xs-3, .threecard, .celtic-cross, .tree-of-life{
+.cardsingle h1, .home, .about .row, .spreads h2, .spreads h1, .spreads .row .col-xs-3, .threecard, .celtic-cross, .tree-of-life{
   text-align:center;
 }
 
