@@ -1,7 +1,11 @@
-<section class="treeoflife" ng-controller="tree-of-life">
-<div class="row">
-<div class="col-xs-12">
-<h1>Tree of Life Spread</h1>
-<div id="container-tree-of-life" ng-mousemove="mouseMove($event)" ng-click="mouseClick($event)"></div>
-<div class="overlay"></div>
+<section class="treeoflife" ng-controller="TreeOfLifeCtrl">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Tree of Life Spread</h2>
+            <div id="container-tree-of-life" ng-mousemove="mouseMove($event)" ng-click="mouseClick($event)"></div>
+            <div class="overlay">
+                <h4>{{deck.activeCard.name}}</h4>
+                <p ng-bind-html="deck.activeCard.PKT">{{deck.activeCard.PKT}}</p>
+                   <h3 class="position-in-spread">Position</h3>
+    <p>In the Tree of Life Spread, this position denotes {{deck.activeCard.posInfo}}.</p>
 </section>

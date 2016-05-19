@@ -1,7 +1,13 @@
-<section class="threecard" ng-controller="celtic-cross as celticcross">
+<section class="threecard" ng-controller="CelticCrossCtrl as celticcross">
     <div class="row">
         <div class="col-xs-12">
-            <h1>Celtic Cross</h1>
+            <h2>Celtic Cross</h2>
             <div id="container-celtic-cross" ng-mousemove="mouseMove($event)" ng-click="mouseClick($event)"></div>
-            <div class="overlay"></div>
+            <div class="overlay">
+                <h4>{{deck.activeCard.name}}</h4>
+                <p ng-bind-html="deck.activeCard.PKT">{{deck.activeCard.PKT}}</p>
+    <h3 class="position-in-spread">Position</h3>
+    <p>In the Celtic Cross Spread, this position denotes {{deck.activeCard.posInfo}}.</p>
+            </div>
+        </div>
 </section>

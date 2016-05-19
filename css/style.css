@@ -58,7 +58,7 @@ background-color: hsla(216, 100%, 50%, 0.1);
   margin-top:10%;
 }
 
-.cardsingle h1, .home, .about .row, .spreads h1, .spreads .row .col-xs-4, .threecard, .celtic-cross, .tree-of-life{
+.cardsingle h1, .home, .about .row, .spreads h2, .spreads .row .col-xs-3, .threecard, .celtic-cross, .tree-of-life{
   text-align:center;
 }
 
@@ -73,17 +73,21 @@ background-color: hsla(216, 100%, 50%, 0.1);
 .overlay {
   position:absolute;
   left:40%;
-  width:60%;
-  top:0;
+  width:55%;
+  top:15%;
+  text-align: left;
+  font-size:0.8em;
   height:100%;
-  background-color: white;
+  background-color: transparent;
   /*border: 1px solid;*/
-  /*opacity:0;*/
+  opacity:0;
   visibility:hidden;
 
 }
 
-
+.position-in-spread {
+  margin-top:10%;
+}
 
 /*/////*/
 

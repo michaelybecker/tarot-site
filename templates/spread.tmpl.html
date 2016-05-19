@@ -1,15 +1,24 @@
-<section class="spreads" ng-controller="spreads">
+<section class="spreads" ng-controller="SpreadsCtrl">
     <div class="row">
         <div class="col-xs-12">
-    <button type="primary" class="btn btn-primary back-button" ui-sref="/"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Home</button>
+            <button type="primary" class="btn btn-primary back-button" ui-sref="/"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>Home</button>
             <h1 class="spread-title">Choose a Spread</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-4" ><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">3 Card Spread</button></div>
-        <div class="col-xs-4" ui-sref-active="active" ui-sref="spread.celtic-cross"><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">Celtic Cross</button></div>
-        <div class="col-xs-4" ui-sref-active="active" ui-sref="spread.tree-of-life"><button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-info btn-md">Tree of Life</button></div>
+        <div class="col-xs-3">
+            <button ui-sref-active="active" ui-sref="spread.three-card-timeline" class="btn btn-md">3 Card - Timeline</button>
+        </div>
+        <div class="col-xs-3">
+            <button ui-sref-active="active" ui-sref="spread.three-card-situation" class="btn btn-md">3 Card - Specific situation</button>
+        </div>
+        <div class="col-xs-3" ui-sref-active="active" ui-sref="spread.celtic-cross">
+            <button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-md">Celtic Cross</button>
+        </div>
+        <div class="col-xs-3" ui-sref-active="active" ui-sref="spread.tree-of-life">
+            <button ui-sref-active="active" ui-sref="spread.three-card" class="btn btn-md">Tree of Life</button>
+        </div>
     </div>
     <div class="row" ui-view="activespread"></div>
-    <custom-footer></custom-footer>
 </section>
+<custom-footer></custom-footer>

@@ -39,10 +39,17 @@ $stateProvider
 	}
 })
 
-.state('spread.three-card', {
+.state('spread.three-card-timeline', {
 	// url: '/.spread',
 			views: {
-				'activespread': {templateUrl: "./templates/threecard.spread.tmpl.html"}
+				'activespread': {templateUrl: "./templates/threecardtimeline.spread.tmpl.html"}
+	}
+})
+
+.state('spread.three-card-situation', {
+	// url: '/.spread',
+			views: {
+				'activespread': {templateUrl: "./templates/threecardsituation.spread.tmpl.html"}
 	}
 })
 
