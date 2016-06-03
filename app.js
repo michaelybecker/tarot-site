@@ -1,6 +1,3 @@
-// TODO: hovers for spread positions
-// TODO: Tree of Life spread
-// TODO: Three.js Load manager
 // TODO: refactor threejs into services
 
 
@@ -17,7 +14,7 @@ $stateProvider
 	views: {
 		"sidebar": {templateUrl: "./templates/sidebar.tmpl.html"},
 		"main": {templateUrl: "./templates/home.tmpl.html"}
-	},
+	}
 
 
 })
