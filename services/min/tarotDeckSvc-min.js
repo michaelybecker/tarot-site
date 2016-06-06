@@ -1,0 +1,1 @@
+reader.service("tarotDeck",function(){this.regularDeck=new Deck,this.deck=this.regularDeck.deck,this.deck.activeCard=this.deck[0],this.shuffledDeck=function(){for(var e=new Deck,c=e.deck,r=c.length,t,k;r;)k=Math.floor(Math.random()*r--),t=c[r],c[r]=c[k],c[k]=t;return c}});

@@ -13,6 +13,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/controllers\/CelticCrossCtrl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/CelticCrossCtrl.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/CelticCrossCtrl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/controllers\/controllers.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -24,12 +35,89 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/controllers\/min\/CelticCrossCtrl-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/min\/CelticCrossCtrl-min.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/min\/CelticCrossCtrl-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/controllers\/min\/controllers-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/min\/controllers-min.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/min\/controllers-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/min\/ThreeCardSituationCtrl-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/min\/ThreeCardSituationCtrl-min.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/min\/ThreeCardSituationCtrl-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/min\/ThreeCardTimelineCtrl-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/min\/ThreeCardTimelineCtrl-min.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/min\/ThreeCardTimelineCtrl-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/min\/TreeOfLifeCtrl-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/min\/TreeOfLifeCtrl-min.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/min\/TreeOfLifeCtrl-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/ThreeCardSituationCtrl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/ThreeCardSituationCtrl.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/ThreeCardSituationCtrl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/ThreeCardTimelineCtrl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/ThreeCardTimelineCtrl.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/ThreeCardTimelineCtrl-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/controllers\/TreeOfLifeCtrl.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/controllers\/TreeOfLifeCtrl.js",
+		"outputAbbreviatedPath": "\/controllers\/min\/TreeOfLifeCtrl-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1909,6 +1997,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/services\/CelCroSvc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/CelCroSvc.js",
+		"outputAbbreviatedPath": "\/services\/min\/CelCroSvc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/min\/CelCroSvc-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/min\/CelCroSvc-min.js",
+		"outputAbbreviatedPath": "\/services\/min\/min\/CelCroSvc-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/services\/min\/services-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1920,12 +2030,89 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/services\/services.js": {
+	"\/services\/min\/tarotDeckSvc-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/min\/tarotDeckSvc-min.js",
+		"outputAbbreviatedPath": "\/services\/min\/min\/tarotDeckSvc-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/min\/ThreeCardSitSvc-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/min\/ThreeCardSitSvc-min.js",
+		"outputAbbreviatedPath": "\/services\/min\/min\/ThreeCardSitSvc-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/min\/ThreeCardTimelineSvc-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/min\/ThreeCardTimelineSvc-min.js",
+		"outputAbbreviatedPath": "\/services\/min\/min\/ThreeCardTimelineSvc-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/min\/ToLSvc-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/min\/ToLSvc-min.js",
+		"outputAbbreviatedPath": "\/services\/min\/min\/ToLSvc-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/TarotDeckSvc.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/services\/services.js",
-		"outputAbbreviatedPath": "\/services\/min\/services-min.js",
+		"inputAbbreviatedPath": "\/services\/TarotDeckSvc.js",
+		"outputAbbreviatedPath": "\/services\/min\/TarotDeckSvc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/ThreeCardSitSvc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/ThreeCardSitSvc.js",
+		"outputAbbreviatedPath": "\/services\/min\/ThreeCardSitSvc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/ThreeCardTimelineSvc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/ThreeCardTimelineSvc.js",
+		"outputAbbreviatedPath": "\/services\/min\/ThreeCardTimelineSvc-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/services\/ToLSvc.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/services\/ToLSvc.js",
+		"outputAbbreviatedPath": "\/services\/min\/ToLSvc-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -1,0 +1,1 @@
+reader.controller("CelticCrossCtrl",["$scope","CelCroSvc",function(e,o){e.mouseMove=function(e){o.mouse.x=e.offsetX/o.renderer.domElement.width*2-1,o.mouse.y=2*-(e.offsetY/o.renderer.domElement.height)+1},e.mouseClick=function(e){o.intersect(e)},e.$on("$destroy",function(){o.destroyScene()}),o.init(),o.render()}]);

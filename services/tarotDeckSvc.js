@@ -1,13 +1,16 @@
-reader.service('tarotDeck', ['$log', function($log) {
+reader.service('tarotDeck', function() {
 
-    this.protoDeck = new Deck;
-    this.deck = this.protoDeck.deck;
+    //new instance of deck for card index, regular order
+    this.regularDeck = new Deck;
+    this.deck = this.regularDeck.deck;
 
+    //init active card
     this.deck.activeCard = this.deck[0];
 
+    //constructor for a new instance of a shuffled deck
+    //deck shuffle logic - implemented using Fisher-Yates shuffle algorithm
     this.shuffledDeck = function() {
 
-        //deck shuffle logic - implemented using Fisher-Yates shuffle algorithm
         var deckForShuffle = new Deck;
         var deck = deckForShuffle.deck;
         var m = deck.length,
@@ -26,5 +29,4 @@ reader.service('tarotDeck', ['$log', function($log) {
         }
         return deck;
     }
-
-}]);
+});

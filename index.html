@@ -13,11 +13,29 @@
     <script src="https://code.angularjs.org/1.5.5/angular-animate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.5/angular-sanitize.min.js"></script>
+
     <script src="./resources/cardDB.js"></script>
+
+    <!--Main-->
     <script src="./app.js"></script>
+
+    <!--Controllers-->
     <script src="./controllers/controllers.js"></script>
-    <script src="./services/services.js"></script>
+    <script src="./controllers/CelticCrossCtrl.js"></script>
+    <script src="./controllers/ThreeCardSituationCtrl.js"></script>
+    <script src="./controllers/ThreeCardTimelineCtrl.js"></script>
+    <script src="./controllers/TreeOfLifeCtrl.js"></script>
+
+    <!--Services-->
+    <script src="./services/TarotDeckSvc.js"></script>
+    <script src="./services/ThreeCardSitSvc.js"></script>
+    <script src="./services/ThreeCardTimelineSvc.js"></script>
+    <script src="./services/CelCroSvc.js"></script>
+    <script src="./services/ToLSvc.js"></script>
+
+    <!--Directives-->
     <script src="./directives/directives.js"></script>
+
     <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -28,14 +46,8 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
-<!--                     <span class="icon-bar">                    <li class="active"><a ui-sref="home">Home</a></li></span>
-                    <span class="icon-bar"><li><a ui-sref="cardindex">Card Index</a></li></span>
-                    <span class="icon-bar"><li><a ui-sref="spread">Spreads</a></li></span>
-                    <span class="icon-bar"><li><a ui-sref="about">About</a></li></span> -->
                 </button>
-<!--                 <a class="navbar-brand" ui-sref="/">Home</a> -->
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li ui-sref-active="active"><a ui-sref="/">Home</a></li>
@@ -46,9 +58,7 @@
                     <li ui-sref-active="active"><a ui-sref="about">About</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid">
         <!-- This is where our views go! -->
