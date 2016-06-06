@@ -15,7 +15,7 @@
 		},
 	"\/controllers\/CelticCrossCtrl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/CelticCrossCtrl.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/CelticCrossCtrl-min.js",
@@ -26,7 +26,7 @@
 		},
 	"\/controllers\/controllers.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/controllers.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/controllers-min.js",
@@ -92,7 +92,7 @@
 		},
 	"\/controllers\/ThreeCardSituationCtrl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/ThreeCardSituationCtrl.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/ThreeCardSituationCtrl-min.js",
@@ -103,7 +103,7 @@
 		},
 	"\/controllers\/ThreeCardTimelineCtrl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/ThreeCardTimelineCtrl.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/ThreeCardTimelineCtrl-min.js",
@@ -114,7 +114,7 @@
 		},
 	"\/controllers\/TreeOfLifeCtrl.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/controllers\/TreeOfLifeCtrl.js",
 		"outputAbbreviatedPath": "\/controllers\/min\/TreeOfLifeCtrl-min.js",
@@ -134,7 +134,7 @@
 		},
 	"\/directives\/directives.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/directives\/directives.js",
 		"outputAbbreviatedPath": "\/directives\/min\/directives-min.js",
@@ -217,7 +217,7 @@
 		},
 	"\/resources\/cardDB.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/resources\/cardDB.js",
 		"outputAbbreviatedPath": "\/resources\/min\/cardDB-min.js",
@@ -1999,14 +1999,14 @@
 		},
 	"\/services\/CelCroSvc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services\/CelCroSvc.js",
 		"outputAbbreviatedPath": "\/services\/min\/CelCroSvc-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/services\/min\/CelCroSvc-min.js": {
 		"fileType": 64,
@@ -2076,7 +2076,7 @@
 		},
 	"\/services\/TarotDeckSvc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services\/TarotDeckSvc.js",
 		"outputAbbreviatedPath": "\/services\/min\/TarotDeckSvc-min.js",
@@ -2087,7 +2087,7 @@
 		},
 	"\/services\/ThreeCardSitSvc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services\/ThreeCardSitSvc.js",
 		"outputAbbreviatedPath": "\/services\/min\/ThreeCardSitSvc-min.js",
@@ -2098,7 +2098,7 @@
 		},
 	"\/services\/ThreeCardTimelineSvc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services\/ThreeCardTimelineSvc.js",
 		"outputAbbreviatedPath": "\/services\/min\/ThreeCardTimelineSvc-min.js",
@@ -2109,7 +2109,7 @@
 		},
 	"\/services\/ToLSvc.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services\/ToLSvc.js",
 		"outputAbbreviatedPath": "\/services\/min\/ToLSvc-min.js",
@@ -2242,6 +2242,80 @@
 	],
 "lastSavedByUser": "Michael Hazani",
 "manualImportLinks": {
+	"\/app.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/resources\/cardDB.js",
+			"position": 0,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/directives\/directives.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/services\/CelCroSvc.js",
+			"position": 2,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/services\/ThreeCardTimelineSvc.js",
+			"position": 3,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/services\/ToLSvc.js",
+			"position": 4,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/services\/TarotDeckSvc.js",
+			"position": 5,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/services\/ThreeCardSitSvc.js",
+			"position": 6,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/controllers\/controllers.js",
+			"position": 7,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/controllers\/ThreeCardSituationCtrl.js",
+			"position": 8,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/controllers\/TreeOfLifeCtrl.js",
+			"position": 9,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/controllers\/ThreeCardTimelineCtrl.js",
+			"position": 10,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/controllers\/CelticCrossCtrl.js",
+			"position": 11,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

@@ -4,6 +4,8 @@
 <head>
     <title>Tarot Reader</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Dependencies-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r76/three.min.js"></script>
     <script src="./resources/lib/CSS3DRenderer.js"></script>
@@ -13,30 +15,11 @@
     <script src="https://code.angularjs.org/1.5.5/angular-animate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.5/angular-sanitize.min.js"></script>
-
-    <script src="./resources/cardDB.js"></script>
-
-    <!--Main-->
-    <script src="./app.js"></script>
-
-    <!--Controllers-->
-    <script src="./controllers/controllers.js"></script>
-    <script src="./controllers/CelticCrossCtrl.js"></script>
-    <script src="./controllers/ThreeCardSituationCtrl.js"></script>
-    <script src="./controllers/ThreeCardTimelineCtrl.js"></script>
-    <script src="./controllers/TreeOfLifeCtrl.js"></script>
-
-    <!--Services-->
-    <script src="./services/TarotDeckSvc.js"></script>
-    <script src="./services/ThreeCardSitSvc.js"></script>
-    <script src="./services/ThreeCardTimelineSvc.js"></script>
-    <script src="./services/CelCroSvc.js"></script>
-    <script src="./services/ToLSvc.js"></script>
-
-    <!--Directives-->
-    <script src="./directives/directives.js"></script>
-
     <link href='https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+
+    <!--App-->
+    <script src="./min/app-min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -61,13 +44,12 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <!-- This is where our views go! -->
         <div class="row">
-            <!-- Cards sidebar -->
+            <!-- Cards sidebar view -->
             <div class="col-xs-2 sidebar">
                 <div ui-view="sidebar"></div>
             </div>
-            <!-- Main -->
+            <!-- Main view -->
             <div class="col-xs-10">
                 <div ui-view="main"></div>
             </div>
