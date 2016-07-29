@@ -240,7 +240,7 @@ this.deck = [
 	image: imagePath + "wands05" + ".jpg",
 	meaning:'x',
 	meaningrev:'y',
-	PKT: '<p>A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the <h3><i>Divinatory Meanings</i>:</h3><p>Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence. </p><h3><i>Reversed</i>:</h3><p>Litigation, disputes, trickery, contradiction.</p>',
+	PKT: '<p>A posse of youths, who are brandishing staves, as if in sport or strife. It is mimic warfare, and hereto correspond the Divinatory Meanings. <h3><i>Divinatory Meanings</i>:</h3><p>Imitation, as, for example, sham fight, but also the strenuous competition and struggle of the search after riches and fortune. In this sense it connects with the battle of life. Hence some attributions say that it is a card of gold, gain, opulence. </p><h3><i>Reversed</i>:</h3><p>Litigation, disputes, trickery, contradiction.</p>',
 	interpretation:'z',
 	suit: 'wands'
 },
